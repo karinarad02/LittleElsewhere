@@ -1,27 +1,27 @@
 using UnityEngine;
 
-namespace LittleElsewhere.CameraSystem
+namespace LittleElsewhere.Core
 {
     /// <summary>
-    /// Smooth orthographic camera follower for top-down exploration.
-    /// Dampens camera movement and maintains framing on the orange-coated protagonist.
+    /// Fixed top-down overhead orthographic camera controller.
+    /// Smoothly dampens movement tracking to follow the player while preserving framing and visual composition.
     /// </summary>
     [RequireComponent(typeof(Camera))]
     public class TopDownCameraController : MonoBehaviour
     {
         [Header("Target & Follow Settings")]
-        [SerializeField, Tooltip("Target transform to follow (Player).")]
+        [SerializeField, Tooltip("Target transform to follow (Player character).")]
         private Transform target;
 
-        [SerializeField, Tooltip("Smooth damp time for camera movement.")]
-        private float smoothTime = 0.3f;
+        [SerializeField, Tooltip("Smooth dampening duration for camera movement.")]
+        private float smoothTime = 0.25f;
 
-        [SerializeField, Tooltip("Fixed offset relative to target position.")]
+        [SerializeField, Tooltip("Camera position offset relative to target.")]
         private Vector3 positionOffset = new Vector3(0, 0, -10f);
 
-        [Header("Camera Settings")]
-        [SerializeField, Tooltip("Orthographic camera size (viewport height control).")]
-        private float orthographicSize = 7.0f;
+        [Header("Orthographic Projection")]
+        [SerializeField, Tooltip("Orthographic camera view size (viewport height control).")]
+        private float orthographicSize = 6.5f;
 
         private Camera cam;
         private Vector3 currentVelocity;
@@ -37,7 +37,6 @@ namespace LittleElsewhere.CameraSystem
         {
             if (target == null)
             {
-                // Auto-find player by tag if not assigned
                 GameObject playerGO = GameObject.FindGameObjectWithTag("Player");
                 if (playerGO != null)
                 {

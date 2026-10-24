@@ -3,23 +3,26 @@ using UnityEngine;
 namespace LittleElsewhere.Player
 {
     /// <summary>
-    /// Spawns footprints in snow behind the player character at set distance intervals.
-    /// Manages alternating left/right foot placement, rotation matching movement direction, and fade-out lifetime.
+    /// Spawns footprints in snow behind the player character at distance intervals.
+    /// Manages alternating left/right foot placement, rotation matching movement direction, and alpha fade decay.
     /// </summary>
     public class FootprintSpawner : MonoBehaviour
     {
-        [Header("Footprint Configuration")]
-        [SerializeField, Tooltip("Footprint prefab with SpriteRenderer and optional FootprintDecay script.")]
+        [Header("Footprint Settings")]
+        [SerializeField, Tooltip("Footprint sprite prefab with SpriteRenderer and FootprintDecay.")]
         private GameObject footprintPrefab;
 
-        [SerializeField, Tooltip("Distance interval between footprints in world units.")]
-        private float stepDistance = 0.6f;
+        [SerializeField, Tooltip("Distance interval between steps in world units.")]
+        private float stepDistance = 0.5f;
 
-        [SerializeField, Tooltip("Lateral distance offset for left and right feet from centerline.")]
-        private float footOffset = 0.15f;
+        [SerializeField, Tooltip("Lateral offset for left and right foot spacing.")]
+        private float footOffset = 0.12f;
 
-        [SerializeField, Tooltip("Lifetime of footprints in seconds before disappearing.")]
-        private float footprintLifetime = 15.0f;
+        [SerializeField, Tooltip("Lifetime of footprint in seconds before disappearing.")]
+        private float footprintLifetime = 18.0f;
+
+        [SerializeField, Tooltip("Sorting layer name for footprint rendering behind character.")]
+        private string footprintSortingLayer = "Footprints";
 
         [Header("References")]
         [SerializeField]
@@ -59,7 +62,7 @@ namespace LittleElsewhere.Player
             // Calculate perpendicular vector for left/right offset
             Vector2 perpDir = new Vector2(-moveDir.y, moveDir.x);
             float sideMultiplier = isLeftFoot ? -1.0f : 1.0f;
-            isLeftFoot = !isLeftFoot; // Alternate feet
+            isLeftFoot = !isLeftFoot;
 
             Vector3 spawnPos = transform.position + (Vector3)(perpDir * (footOffset * sideMultiplier));
             float angle = Mathf.Atan2(moveDir.y, moveDir.x) * Mathf.Rad2Deg - 90f;
@@ -67,7 +70,13 @@ namespace LittleElsewhere.Player
 
             GameObject footprintGO = Instantiate(footprintPrefab, spawnPos, rotation);
 
-            // Add or configure auto-destroy decay script
+            // Configure sorting layer if SpriteRenderer exists
+            SpriteRenderer sr = footprintGO.GetComponent<SpriteRenderer>();
+            if (sr != null && !string.IsNullOrEmpty(footprintSortingLayer))
+            {
+                sr.sortingLayerName = footprintSortingLayer;
+            }
+
             FootprintDecay decay = footprintGO.GetComponent<FootprintDecay>();
             if (decay == null)
             {
@@ -78,11 +87,11 @@ namespace LittleElsewhere.Player
     }
 
     /// <summary>
-    /// Fades footprint sprite alpha over its lifetime and destroys the object upon expiration.
+    /// Smoothly fades out footprint sprite alpha over its lifetime and handles garbage cleanup.
     /// </summary>
     public class FootprintDecay : MonoBehaviour
     {
-        private float lifetime = 15.0f;
+        private float lifetime = 18.0f;
         private float timer = 0.0f;
         private SpriteRenderer spriteRenderer;
         private Color initialColor;
@@ -108,10 +117,10 @@ namespace LittleElsewhere.Player
 
             if (spriteRenderer != null)
             {
-                // Gradually fade out in the last 40% of lifetime
-                float alphaProgress = Mathf.Clamp01((1.0f - progress) / 0.4f);
+                // Smooth fade during the last 50% of footprint lifespan
+                float alphaMultiplier = Mathf.Clamp01((1.0f - progress) / 0.5f);
                 Color c = initialColor;
-                c.a = initialColor.a * alphaProgress;
+                c.a = initialColor.a * alphaMultiplier;
                 spriteRenderer.color = c;
             }
 

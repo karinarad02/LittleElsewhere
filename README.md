@@ -1,19 +1,19 @@
 # LittleElsewhere 🌲
 
-**LittleElsewhere** is a peaceful, mysterious, top-down forest exploration game built with Unity (Universal Render Pipeline - URP). Featuring a distinctive hand-painted, watercolor-inspired aesthetic, the player controls a tiny character in an orange coat exploring a vast, procedurally generated winter forest filled with wildlife, neighbours, subtle supernatural occurrences, and interconnected stories.
+**LittleElsewhere** is a peaceful, mysterious, top-down forest exploration game built with Unity (Universal Render Pipeline - URP). Featuring a distinctive hand-painted, watercolor-inspired aesthetic inspired by top-down winter illustrations, the player controls a tiny character in an orange coat exploring a vast, procedurally generated winter forest filled with wildlife, neighbours, subtle supernatural occurrences, and interconnected stories.
 
 ---
 
 ## 🎨 Core Vision & Visual Style
 
 - **Relaxing & Curiosity-Driven:** No combat, hunger, stamina pressure, or mandatory deadlines.
-- **Top-Down Orthographic Perspective:** High-overhead view emphasizing scale, negative space, and environmental silhouette.
+- **Top-Down Orthographic Perspective:** Fixed high-overhead view emphasizing scale, negative space, and environmental silhouette.
 - **Signature Aesthetics:**
   - Soft, muted winter palette with near-white snow textures.
-  - Detailed, hand-painted/illustrated pine trees and foliage.
-  - Long, soft blue shadows that adjust dynamically with the day/night cycle.
+  - Hand-painted top-down pine trees with star/radiating branch clusters and snow dusting.
+  - Long, soft cool-blue shadows (`#3B5B88`) pointing diagonally across the snow.
   - Distinctive tiny character wearing a bright orange coat.
-  - Organic, painterly silhouettes over conventional low-poly 3D aesthetics.
+  - Organic, painterly silhouettes over conventional low-poly 3D graphics.
 
 ---
 
@@ -45,31 +45,34 @@
 
 ---
 
-## 📁 Recommended Unity Project Structure
+## 📁 Project Directory Structure
 
 ```
 Assets/
-├── Core/
-│   ├── GameState/         # Game Loop, Save/Load System, Scene Management
-│   ├── Events/            # Event Channels and ScriptableObject Messaging
-│   └── Utilities/         # Math, Serialization, Chunk Helpers
-├── Scripts/
-│   ├── Player/            # Top-down Controller, Movement, Footprints Engine
-│   ├── World/             # Procedural Generation, Chunk Manager, World Wrapping
-│   ├── Environment/       # Day/Night Cycle, Season Controller, Weather
-│   ├── Story/             # Narrative Engine, Clue Chains, Journal System
-│   └── UI/                # Minimal HUD, Journal Interface, Transition Screens
-├── ScriptableObjects/
-│   ├── WorldGen/          # Biome Rules, Feature Distribution Rules
-│   ├── Items/             # Discoverables, Artifacts, Letters
-│   └── Stories/           # Story Node Definitions, Journal Entry Templates
-├── Prefabs/
-│   ├── Environment/       # Pine Trees, Boulders, Shelters, Water Tiles
-│   ├── Characters/        # Player (Orange Coat), Wildlife, Neighbours
-│   └── Effects/           # Footprint Emitter, Weather Particles
-├── Settings/              # URP Pipeline Assets, Render Features
-├── Materials/             # Custom Shaders (Painterly Snow, Soft Shadow, Leaves)
-└── Textures/              # Hand-painted Textures, Sprites, Noise Maps
+└── _Game/
+    ├── Art/
+    │   ├── Characters/        # Orange-coated player sprites & footprint textures
+    │   ├── Trees/             # Hand-painted top-down pine tree sprites
+    │   ├── Shadows/           # Tree shadow alpha maps / soft blue projection masks
+    │   ├── Terrain/           # Near-white snow surface tiles & noise overlays
+    │   ├── Buildings/         # Cabins, campsites, forest shelters
+    │   └── UI/                # Minimal HUD & Journal icons
+    ├── Audio/                 # Environmental wind, footsteps in snow, wildlife soundscapes
+    ├── Materials/             # Custom URP Sprite & Shadow materials
+    ├── Prefabs/               # Player, Tree, Footprint, and Light prefabs
+    ├── Scenes/                # Prototype & Main game scenes
+    ├── Scripts/
+    │   ├── Core/              # TopDownCameraController, GameManager
+    │   ├── Player/            # PlayerController, FootprintSpawner, FootprintDecay
+    │   ├── World/             # PrototypeClearingSpawner, ChunkManager, WraparoundTopology
+    │   ├── Lighting/          # AtmosphericLightingController
+    │   ├── Time/              # TimeOfDayController
+    │   ├── Stories/           # Narrative Engine, ClueChains
+    │   ├── Navigation/        # Pathing & Home Guidance
+    │   └── Saving/            # World Persistence & Save/Load
+    ├── ScriptableObjects/     # Biome definitions, Journal Entry definitions
+    ├── Shaders/               # Custom URP painterly snow & soft shadow shaders
+    └── Tests/                 # Playmode and Editmode unit tests
 ```
 
 ---
@@ -77,13 +80,14 @@ Assets/
 ## 🚀 Development Roadmap & Prototype Implementation Plan
 
 ### Phase 1: Visual Prototype & Movement System (Current Focus)
-- [x] Unity Project Initialization & Git Setup
-- [ ] **Snow Ground & Shader:** Soft textured snow surface with subtle painterly finish.
-- [ ] **Illustrated Tree System:** Billboarded or hybrid 2D pine trees cast soft blue directional shadows.
-- [ ] **Player Controller:** Smooth top-down movement for the orange-coated character.
-- [ ] **Footprint System:** Dynamic footprint trails left in the snow that fade over time.
-- [ ] **Orthographic Camera:** Fixed overhead camera with smooth dampening.
-- [ ] **Day/Night Cycle Lighting:** Basic atmospheric URP directional light and ambient gradient transitions.
+- [x] Unity Project Initialization & Git Remote Setup
+- [x] Folder Structure Migration to `Assets/_Game/`
+- [x] **Snow Ground & Shader:** Soft textured snow surface with subtle painterly finish.
+- [x] **Illustrated Tree System:** Billboarded or top-down pine trees casting soft blue directional shadows.
+- [x] **Player Controller:** Smooth 8-direction top-down movement for the orange-coated character.
+- [x] **Footprint System:** Dynamic footprint trails left in the snow that fade over time.
+- [x] **Orthographic Camera:** Fixed overhead camera with smooth dampening.
+- [x] **Day/Night Cycle Lighting:** Atmospheric URP directional light, color gradients, and time period presets.
 
 ### Phase 2: World Generation & Seamless Wrapping
 - [ ] Seed-based deterministic chunk generation.
