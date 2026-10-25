@@ -7,7 +7,7 @@ namespace LittleElsewhere.UI
 {
     /// <summary>
     /// Handles asynchronous scene loading with progress bar updates, smooth fade transitions, and lore hints.
-    /// Supports both uGUI and IMGUI rendering so it is fully functional out-of-the-box in any scene setup.
+    /// Styled using the project's custom Menu UI components (PanelA, PanelB, ButtonNormal, ButtonPressed).
     /// </summary>
     public class LoadingScreenController : MonoBehaviour
     {
@@ -34,11 +34,17 @@ namespace LittleElsewhere.UI
 
         private float currentProgress = 0f;
         private string activeLoreTip = "";
-        private GUIStyle progressStyle, tipStyle, percentStyle, boxStyle;
+        private Texture2D panelATex, panelBTex, btnNormalTex, btnPressedTex;
+        private GUIStyle progressStyle, barBgStyle, tipStyle, percentStyle, boxStyle;
         private bool guiStylesReady;
 
         private void Start()
         {
+            panelATex = Resources.Load<Texture2D>("UI/PanelA");
+            panelBTex = Resources.Load<Texture2D>("UI/PanelB");
+            btnNormalTex = Resources.Load<Texture2D>("UI/ButtonNormal");
+            btnPressedTex = Resources.Load<Texture2D>("UI/ButtonPressed");
+
             if (loreTips != null && loreTips.Length > 0)
             {
                 int randomIndex = Random.Range(0, loreTips.Length);
@@ -54,7 +60,6 @@ namespace LittleElsewhere.UI
             float elapsedTime = 0f;
             string sceneToLoad = string.IsNullOrEmpty(TargetSceneName) ? "MainGameScene" : TargetSceneName;
 
-            // Fallback if TargetSceneName is not in Build Settings
             if (!Application.CanStreamedLevelBeLoaded(sceneToLoad))
             {
                 if (Application.CanStreamedLevelBeLoaded("LittleElsewhere")) sceneToLoad = "LittleElsewhere";
@@ -100,8 +105,25 @@ namespace LittleElsewhere.UI
             if (guiStylesReady) return;
             guiStylesReady = true;
 
-            boxStyle = new GUIStyle(GUI.skin.box);
-            
+            if (panelATex == null) panelATex = Resources.Load<Texture2D>("UI/PanelA");
+            if (panelBTex == null) panelBTex = Resources.Load<Texture2D>("UI/PanelB");
+            if (btnNormalTex == null) btnNormalTex = Resources.Load<Texture2D>("UI/ButtonNormal");
+            if (btnPressedTex == null) btnPressedTex = Resources.Load<Texture2D>("UI/ButtonPressed");
+
+            // Panel frame using PanelA texture
+            boxStyle = new GUIStyle(GUI.skin.box)
+            {
+                border = new RectOffset(16, 16, 16, 16)
+            };
+            if (panelATex) boxStyle.normal.background = panelATex;
+
+            // Bar background using PanelB frame
+            barBgStyle = new GUIStyle(GUI.skin.box)
+            {
+                border = new RectOffset(8, 8, 8, 8)
+            };
+            if (panelBTex) barBgStyle.normal.background = panelBTex;
+
             percentStyle = new GUIStyle(GUI.skin.label)
             {
                 fontSize = 22,
@@ -119,16 +141,16 @@ namespace LittleElsewhere.UI
             };
             tipStyle.normal.textColor = new Color(0.18f, 0.28f, 0.36f);
 
-            progressStyle = new GUIStyle();
-            Texture2D fillTex = new Texture2D(1, 1);
-            fillTex.SetPixel(0, 0, new Color(0.25f, 0.55f, 0.70f, 0.9f));
-            fillTex.Apply();
-            progressStyle.normal.background = fillTex;
+            // Progress bar fill using ButtonNormal component texture
+            progressStyle = new GUIStyle()
+            {
+                border = new RectOffset(8, 8, 8, 8)
+            };
+            if (btnNormalTex) progressStyle.normal.background = btnNormalTex;
         }
 
         private void OnGUI()
         {
-            // If uGUI is already connected, avoid drawing duplicate IMGUI
             if (progressBarFill != null && progressPercentText != null) return;
 
             SetupStyles();
@@ -140,24 +162,24 @@ namespace LittleElsewhere.UI
                 new Vector3(scale, scale, 1)
             );
 
-            // Container Panel
-            GUI.Box(new Rect(340, 520, 600, 150), "", boxStyle);
+            // Main Paper Container Panel (PanelA)
+            GUI.Box(new Rect(320, 500, 640, 170), "", boxStyle);
 
-            // Lore Tip
-            GUI.Label(new Rect(360, 535, 560, 50), activeLoreTip, tipStyle);
+            // Lore Tip Text
+            GUI.Label(new Rect(340, 515, 600, 50), activeLoreTip, tipStyle);
 
-            // Progress Bar Background
-            GUI.Box(new Rect(380, 595, 520, 24), "");
+            // Progress Bar Background Frame (PanelB)
+            GUI.Box(new Rect(360, 575, 560, 32), "", barBgStyle);
 
-            // Progress Bar Fill
-            float barWidth = 516f * currentProgress;
-            if (barWidth > 0)
+            // Progress Bar Fill (ButtonNormal texture)
+            float fillWidth = 552f * currentProgress;
+            if (fillWidth > 4f)
             {
-                GUI.Box(new Rect(382, 597, barWidth, 20), "", progressStyle);
+                GUI.Box(new Rect(364, 579, fillWidth, 24), "", progressStyle);
             }
 
             // Percentage Text
-            GUI.Label(new Rect(380, 625, 520, 30), $"{Mathf.RoundToInt(currentProgress * 100)}%", percentStyle);
+            GUI.Label(new Rect(360, 618, 560, 32), $"{Mathf.RoundToInt(currentProgress * 100)}%", percentStyle);
         }
     }
 }

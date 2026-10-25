@@ -10,13 +10,18 @@ public class LEGame : MonoBehaviour {
     public static GameScreen Current = GameScreen.Main;
     
     static float music = .7f, sound = .8f;
-    Texture2D bg;
+    Texture2D bg, btnNormalTex, btnHoverTex, btnPressedTex, panelATex, panelBTex;
     GUIStyle title, button, body, boxStyle;
     bool ready;
 
     void Start() {
         bg = Resources.Load<Texture2D>("UI/MainMenu");
-        // If we started directly in game scene, default to Playing state
+        btnNormalTex = Resources.Load<Texture2D>("UI/ButtonNormal");
+        btnHoverTex = Resources.Load<Texture2D>("UI/ButtonHover");
+        btnPressedTex = Resources.Load<Texture2D>("UI/ButtonPressed");
+        panelATex = Resources.Load<Texture2D>("UI/PanelA");
+        panelBTex = Resources.Load<Texture2D>("UI/PanelB");
+
         string activeScene = SceneManager.GetActiveScene().name;
         if (activeScene != "MainMenuScene" && activeScene != "LoadingScene") {
             Current = GameScreen.Playing;
@@ -30,12 +35,38 @@ public class LEGame : MonoBehaviour {
     void Setup() {
         if (ready) return;
         ready = true;
+
+        if (btnNormalTex == null) btnNormalTex = Resources.Load<Texture2D>("UI/ButtonNormal");
+        if (btnHoverTex == null) btnHoverTex = Resources.Load<Texture2D>("UI/ButtonHover");
+        if (btnPressedTex == null) btnPressedTex = Resources.Load<Texture2D>("UI/ButtonPressed");
+        if (panelATex == null) panelATex = Resources.Load<Texture2D>("UI/PanelA");
+        if (panelBTex == null) panelBTex = Resources.Load<Texture2D>("UI/PanelB");
+
         title = new GUIStyle(GUI.skin.label) { fontSize = 38, alignment = TextAnchor.MiddleCenter, fontStyle = FontStyle.Bold };
         title.normal.textColor = new Color(.12f, .24f, .33f);
+        
         body = new GUIStyle(GUI.skin.label) { fontSize = 18, alignment = TextAnchor.MiddleCenter };
         body.normal.textColor = title.normal.textColor;
-        button = new GUIStyle(GUI.skin.button) { fontSize = 20, fontStyle = FontStyle.Bold };
-        boxStyle = new GUIStyle(GUI.skin.box);
+
+        // Custom styled button using UI components
+        button = new GUIStyle(GUI.skin.button) {
+            fontSize = 20,
+            fontStyle = FontStyle.Bold,
+            alignment = TextAnchor.MiddleCenter,
+            border = new RectOffset(12, 12, 12, 12)
+        };
+        if (btnNormalTex) button.normal.background = btnNormalTex;
+        if (btnHoverTex) button.hover.background = btnHoverTex;
+        if (btnPressedTex) button.active.background = btnPressedTex;
+        button.normal.textColor = new Color(.12f, .24f, .33f);
+        button.hover.textColor = new Color(.08f, .16f, .22f);
+        button.active.textColor = new Color(.05f, .10f, .15f);
+
+        // Custom panel box using paper panel UI component
+        boxStyle = new GUIStyle(GUI.skin.box) {
+            border = new RectOffset(16, 16, 16, 16)
+        };
+        if (panelATex) boxStyle.normal.background = panelATex;
     }
 
     void Update() {
@@ -70,15 +101,15 @@ public class LEGame : MonoBehaviour {
         if (Current == GameScreen.Main) {
             if (bg) GUI.DrawTexture(new Rect(0, 0, 1280, 720), bg, ScaleMode.ScaleAndCrop);
             GUI.Box(new Rect(435, 95, 410, 510), "", boxStyle);
-            GUI.Label(new Rect(440, 145, 400, 80), "Little Elsewhere", title);
+            GUI.Label(new Rect(440, 135, 400, 70), "Little Elsewhere", title);
             
-            if (Btn("New Game", 250)) {
+            if (Btn("New Game", 235)) {
                 StartNewGame();
             }
-            if (Btn("Continue", 315)) {
+            if (Btn("Continue", 305)) {
                 ContinueGame();
             }
-            if (Btn("Settings", 380)) {
+            if (Btn("Settings", 375)) {
                 Current = GameScreen.Settings;
             }
             if (Btn("Quit", 445)) {
@@ -107,7 +138,7 @@ public class LEGame : MonoBehaviour {
     }
 
     bool Btn(string s, float y) {
-        return GUI.Button(new Rect(490, y, 300, 45), s, button);
+        return GUI.Button(new Rect(490, y, 300, 48), s, button);
     }
 
     void StartNewGame() {
