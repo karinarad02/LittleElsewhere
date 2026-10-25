@@ -1,5 +1,6 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using LittleElsewhere.UI;
 
 public class LEGame : MonoBehaviour {
     public static bool Paused;
@@ -10,21 +11,31 @@ public class LEGame : MonoBehaviour {
     
     static float music = .7f, sound = .8f;
     Texture2D bg;
-    GUIStyle title, button, body;
+    GUIStyle title, button, body, boxStyle;
     bool ready;
 
     void Start() {
         bg = Resources.Load<Texture2D>("UI/MainMenu");
+        // If we started directly in game scene, default to Playing state
+        string activeScene = SceneManager.GetActiveScene().name;
+        if (activeScene != "MainMenuScene" && activeScene != "LoadingScene") {
+            Current = GameScreen.Playing;
+            Paused = false;
+        } else if (activeScene == "MainMenuScene") {
+            Current = GameScreen.Main;
+            Paused = true;
+        }
     }
 
     void Setup() {
         if (ready) return;
         ready = true;
-        title = new GUIStyle(GUI.skin.label) { fontSize = 36, alignment = TextAnchor.MiddleCenter, fontStyle = FontStyle.Italic };
+        title = new GUIStyle(GUI.skin.label) { fontSize = 38, alignment = TextAnchor.MiddleCenter, fontStyle = FontStyle.Bold };
         title.normal.textColor = new Color(.12f, .24f, .33f);
         body = new GUIStyle(GUI.skin.label) { fontSize = 18, alignment = TextAnchor.MiddleCenter };
         body.normal.textColor = title.normal.textColor;
-        button = new GUIStyle(GUI.skin.button) { fontSize = 18 };
+        button = new GUIStyle(GUI.skin.button) { fontSize = 20, fontStyle = FontStyle.Bold };
+        boxStyle = new GUIStyle(GUI.skin.box);
     }
 
     void Update() {
@@ -32,7 +43,7 @@ public class LEGame : MonoBehaviour {
             if (Current == GameScreen.Playing) {
                 Current = GameScreen.Pause;
                 Paused = true;
-            } else if (Current != GameScreen.Main) {
+            } else if (Current == GameScreen.Pause || Current == GameScreen.Settings) {
                 Current = GameScreen.Playing;
                 Paused = false;
             }
@@ -50,41 +61,85 @@ public class LEGame : MonoBehaviour {
 
         if (Current == GameScreen.Playing) {
             if (!string.IsNullOrEmpty(Message)) {
-                GUI.Box(new Rect(380, 620, 520, 55), Message);
-                if (GUI.Button(new Rect(900, 625, 80, 40), "Close")) Message = "";
+                GUI.Box(new Rect(380, 620, 520, 55), Message, boxStyle);
+                if (GUI.Button(new Rect(900, 625, 80, 40), "Close", button)) Message = "";
             }
             return;
         }
 
         if (Current == GameScreen.Main) {
             if (bg) GUI.DrawTexture(new Rect(0, 0, 1280, 720), bg, ScaleMode.ScaleAndCrop);
-            GUI.Box(new Rect(435, 95, 410, 510), "");
-            GUI.Label(new Rect(440, 145, 400, 100), "Little Elsewhere", title);
-            if (Btn("New Game", 270)) { Current = GameScreen.Playing; Paused = false; }
-            if (Btn("Continue", 325)) { Load(); }
-            if (Btn("Settings", 380)) Current = GameScreen.Settings;
-            if (Btn("Quit", 435)) Application.Quit();
+            GUI.Box(new Rect(435, 95, 410, 510), "", boxStyle);
+            GUI.Label(new Rect(440, 145, 400, 80), "Little Elsewhere", title);
+            
+            if (Btn("New Game", 250)) {
+                StartNewGame();
+            }
+            if (Btn("Continue", 315)) {
+                ContinueGame();
+            }
+            if (Btn("Settings", 380)) {
+                Current = GameScreen.Settings;
+            }
+            if (Btn("Quit", 445)) {
+                Application.Quit();
+            }
         } else {
-            GUI.Box(new Rect(390, 105, 500, 510), "");
+            GUI.Box(new Rect(390, 105, 500, 510), "", boxStyle);
             GUI.Label(new Rect(425, 135, 430, 65), Current.ToString(), title);
+            
             if (Current == GameScreen.Pause) {
                 if (Btn("Resume", 240)) { Current = GameScreen.Playing; Paused = false; }
                 if (Btn("Save Game", 295)) Save();
                 if (Btn("Settings", 350)) Current = GameScreen.Settings;
-                if (Btn("Main Menu", 405)) { Current = GameScreen.Main; Paused = true; }
+                if (Btn("Main Menu", 405)) {
+                    ReturnToMainMenu();
+                }
             }
             if (Current == GameScreen.Settings) {
                 GUI.Label(new Rect(480, 230, 320, 30), "Music Volume", body);
-                music = GUI.HorizontalSlider(new Rect(510, 275, 260, 25), music, 0, 1);
+                music = GUI.HorizontalSlider(new Rect(510, 270, 260, 25), music, 0, 1);
                 GUI.Label(new Rect(480, 305, 320, 30), "Sound Volume", body);
-                sound = GUI.HorizontalSlider(new Rect(510, 350, 260, 25), sound, 0, 1);
-                if (Btn("Back", 435)) Current = Paused ? GameScreen.Pause : GameScreen.Main;
+                sound = GUI.HorizontalSlider(new Rect(510, 345, 260, 25), sound, 0, 1);
+                if (Btn("Back", 420)) Current = Paused ? GameScreen.Pause : GameScreen.Main;
             }
         }
     }
 
     bool Btn(string s, float y) {
-        return GUI.Button(new Rect(490, y, 300, 43), s, button);
+        return GUI.Button(new Rect(490, y, 300, 45), s, button);
+    }
+
+    void StartNewGame() {
+        string targetScene = Application.CanStreamedLevelBeLoaded("LittleElsewhere") ? "LittleElsewhere" : "MainGameScene";
+        if (Application.CanStreamedLevelBeLoaded("LoadingScene")) {
+            LoadingScreenController.TargetSceneName = targetScene;
+            SceneManager.LoadScene("LoadingScene");
+        } else {
+            SceneManager.LoadScene(targetScene);
+        }
+        Current = GameScreen.Playing;
+        Paused = false;
+    }
+
+    void ContinueGame() {
+        string targetScene = Application.CanStreamedLevelBeLoaded("LittleElsewhere") ? "LittleElsewhere" : "MainGameScene";
+        if (Application.CanStreamedLevelBeLoaded("LoadingScene")) {
+            LoadingScreenController.TargetSceneName = targetScene;
+            SceneManager.LoadScene("LoadingScene");
+        } else {
+            SceneManager.LoadScene(targetScene);
+        }
+        Current = GameScreen.Playing;
+        Paused = false;
+    }
+
+    void ReturnToMainMenu() {
+        if (Application.CanStreamedLevelBeLoaded("MainMenuScene")) {
+            SceneManager.LoadScene("MainMenuScene");
+        }
+        Current = GameScreen.Main;
+        Paused = true;
     }
 
     void Save() {
