@@ -52,10 +52,25 @@ namespace LittleElsewhere.Core
 
         private void LateUpdate()
         {
-            if (target == null) return;
+            if (target == null)
+            {
+                GameObject playerGO = GameObject.FindGameObjectWithTag("Player");
+                if (playerGO != null)
+                {
+                    target = playerGO.transform;
+                }
+                else return;
+            }
 
             Vector3 targetPosition = target.position + positionOffset;
-            transform.position = Vector3.SmoothDamp(transform.position, targetPosition, ref currentVelocity, smoothTime);
+            if (smoothTime <= 0.001f)
+            {
+                transform.position = targetPosition;
+            }
+            else
+            {
+                transform.position = Vector3.SmoothDamp(transform.position, targetPosition, ref currentVelocity, smoothTime);
+            }
         }
 
         public void SetTarget(Transform newTarget)
