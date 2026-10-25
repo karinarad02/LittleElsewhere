@@ -45,8 +45,8 @@ namespace LittleElsewhere
         }
         public void Rebuild(SaveData save)
         {
-            if(world!=null){world.gameObject.SetActive(false);Destroy(world.gameObject);}
-            if(player!=null){player.gameObject.SetActive(false);Destroy(player.gameObject);}
+            if(world!=null){world.gameObject.SetActive(false);if(Application.isPlaying)Destroy(world.gameObject);else DestroyImmediate(world.gameObject);}
+            if(player!=null){player.gameObject.SetActive(false);if(Application.isPlaying)Destroy(player.gameObject);else DestroyImmediate(player.gameObject);}
             data=save;
             var p=new GameObject("Player • orange coat");player=p.AddComponent<PlayerController>();player.Setup(this);
             player.Position=new Vector2(save.x,save.y);

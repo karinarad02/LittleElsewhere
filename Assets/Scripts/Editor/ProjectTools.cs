@@ -92,10 +92,11 @@ namespace LittleElsewhere.Editor
     {
         void OnPreprocessTexture()
         {
-            if(!assetPath.StartsWith("Assets/Resources/Art/") && !assetPath.StartsWith("Assets/Resources/HD/"))return;
+            if(!assetPath.StartsWith("Assets/Resources/Art/") && !assetPath.StartsWith("Assets/Resources/HD/") && !assetPath.StartsWith("Assets/Resources/Menu_Components/"))return;
             var importer=(TextureImporter)assetImporter;
             importer.textureType=TextureImporterType.Default;
             importer.alphaSource=TextureImporterAlphaSource.FromInput;importer.alphaIsTransparency=true;
+            importer.isReadable=true;
             importer.mipmapEnabled=false;importer.wrapMode=TextureWrapMode.Clamp;importer.filterMode=FilterMode.Bilinear;
             importer.textureCompression=TextureImporterCompression.Uncompressed;importer.maxTextureSize=4096;importer.npotScale=TextureImporterNPOTScale.None;
         }

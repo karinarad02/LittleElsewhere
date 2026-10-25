@@ -141,6 +141,6 @@ namespace LittleElsewhere
             block.SetVector("_ShadowVector",new Vector4(vector.x,vector.y,0,0));
             block.SetColor("_ShadowTint",tint);shadow.SetPropertyBlock(block);
         }
-        void OnDestroy(){if(shadowMaterial!=null)Destroy(shadowMaterial);}
+        void OnDestroy(){if(shadowMaterial!=null){if(Application.isPlaying)Destroy(shadowMaterial);else DestroyImmediate(shadowMaterial);}}
     }
 }
