@@ -49,30 +49,21 @@
 
 ```
 Assets/
-└── _LittleElsewhere/
-    ├── Art/
-    │   ├── Characters/        # Orange-coated player sprites & footprint textures
-    │   ├── Trees/             # Hand-painted top-down pine tree sprites
-    │   ├── Shadows/           # Tree shadow alpha maps / soft blue projection masks
-    │   ├── Terrain/           # Near-white snow surface tiles & noise overlays
-    │   ├── Buildings/         # Cabins, campsites, forest shelters
-    │   └── UI/                # Minimal HUD & Journal icons
-    ├── Audio/                 # Environmental wind, footsteps in snow, wildlife soundscapes
-    ├── Materials/             # Custom URP Sprite & Shadow materials
-    ├── Prefabs/               # Player, Tree, Footprint, and Light prefabs
-    ├── Scenes/                # Prototype & Main game scenes
-    ├── Scripts/
-    │   ├── Core/              # TopDownCameraController, GameManager
-    │   ├── Player/            # PlayerController, FootprintSpawner, FootprintDecay
-    │   ├── World/             # PrototypeClearingSpawner, ChunkManager, WraparoundTopology
-    │   ├── Lighting/          # AtmosphericLightingController
-    │   ├── Time/              # TimeOfDayController
-    │   ├── Stories/           # Narrative Engine, ClueChains
-    │   ├── Navigation/        # Pathing & Home Guidance
-    │   └── Saving/            # World Persistence & Save/Load
-    ├── ScriptableObjects/     # Biome definitions, Journal Entry definitions
-    ├── Shaders/               # Custom URP painterly snow & soft shadow shaders
-    └── Tests/                 # Playmode and Editmode unit tests
+├── Art/                   # Characters, Sprites & Reference Concept Art
+├── Audio/                 # Environmental wind, footsteps in snow, soundscapes
+├── Editor/                # Custom Unity Editor tools
+├── Game/                  # Core game assets (Animals, Effects, Environment, Player, Terrain, Trees)
+├── Materials/             # Custom URP Sprite & Shadow materials
+├── Menu/                  # Menu backgrounds, UI components & mockups
+├── Prefabs/               # Player, Tree, Footprint, and Light prefabs
+├── References/            # Concept artwork & reference sheets
+├── Scenes/                # MainGameScene and project scenes
+├── ScriptableObjects/     # Biome definitions, Journal Entry definitions
+├── Scripts/               # Core, Player, World, Lighting, Time, Navigation scripts
+├── Settings/              # URP & Input settings
+├── Shaders/               # Custom URP painterly snow & soft shadow shaders
+├── Sprites/               # Additional sprite resources
+└── Tests/                 # Playmode and Editmode unit tests
 ```
 
 ---
@@ -81,7 +72,7 @@ Assets/
 
 ### Phase 1: Visual Prototype & Movement System (Current Focus)
 - [x] Unity Project Initialization & Git Remote Setup
-- [x] Folder Structure Migration to `Assets/_LittleElsewhere/`
+- [x] Folder Structure Migration directly under `Assets/`
 - [x] **Snow Ground & Shader:** Soft textured snow surface with subtle painterly finish.
 - [x] **Illustrated Tree System:** Billboarded or top-down pine trees casting soft blue directional shadows.
 - [x] **Player Controller:** Smooth 8-direction top-down movement for the orange-coated character.
