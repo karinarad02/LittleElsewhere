@@ -49,20 +49,14 @@
 
 ```
 Assets/
-├── Art/                   # Characters, Sprites & Reference Concept Art
 ├── Audio/                 # Environmental wind, footsteps in snow, soundscapes
 ├── Editor/                # Custom Unity Editor tools
 ├── Game/                  # Core game assets (Animals, Effects, Environment, Player, Terrain, Trees)
-├── Materials/             # Custom URP Sprite & Shadow materials
 ├── Menu/                  # Menu backgrounds, UI components & mockups
-├── Prefabs/               # Player, Tree, Footprint, and Light prefabs
 ├── References/            # Concept artwork & reference sheets
 ├── Scenes/                # MainGameScene and project scenes
-├── ScriptableObjects/     # Biome definitions, Journal Entry definitions
 ├── Scripts/               # Core, Player, World, Lighting, Time, Navigation scripts
 ├── Settings/              # URP & Input settings
-├── Shaders/               # Custom URP painterly snow & soft shadow shaders
-├── Sprites/               # Additional sprite resources
 └── Tests/                 # Playmode and Editmode unit tests
 ```
 
