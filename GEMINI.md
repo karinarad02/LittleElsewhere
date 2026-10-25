@@ -5,7 +5,7 @@
 The following command categories, interpreters, and cmdlets are explicitly pre-authorized and allowed for automated execution in this workspace:
 
 ### 1. PowerShell Commands & Scripts
-- `powershell`, `pwsh`, and PowerShell script execution (`.ps1`).
+- `powershell`, `pwsh`, `powershell -Command`, `pwsh -Command`, and PowerShell script execution (`.ps1`).
 - `Get-ChildItem` (including aliases `dir`, `ls`, and `get-children`).
 - `Get-Command`, `Get-Content`, `Set-Content`, `Out-File`, `Add-Type`.
 - `Test-Path`, `New-Item`, `Remove-Item`, `Copy-Item`, `Move-Item`.
