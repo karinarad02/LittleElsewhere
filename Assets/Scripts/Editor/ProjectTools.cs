@@ -67,7 +67,7 @@ namespace LittleElsewhere.Editor
         public static void Night(){PreviewHour(23);}
         static void PreviewHour(float hour)
         {
-            var game=UnityEngine.Object.FindFirstObjectByType<GameSession>();
+            var game=UnityEngine.Object.FindAnyObjectByType<GameSession>();
             if(!EditorApplication.isPlaying || game==null || game.dayNight==null || !game.HasSession){Debug.LogWarning("Enter Play Mode and start or load a walk first.");return;}
             game.data.worldHours=System.Math.Floor(game.data.worldHours/24)*24+hour;
             game.dayNight.Apply();game.page="Pause";

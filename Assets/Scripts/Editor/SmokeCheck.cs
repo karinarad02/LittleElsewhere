@@ -39,7 +39,7 @@ namespace LittleElsewhere.Editor
             {
                 string active=UnityEngine.SceneManagement.SceneManager.GetActiveScene().name;
                 if(active==SceneFlow.LoadingScene)sawLoading=true;
-                var g=UnityEngine.Object.FindFirstObjectByType<GameSession>();
+                var g=UnityEngine.Object.FindAnyObjectByType<GameSession>();
                 if(active==SceneFlow.MenuScene && g!=null && g.cam!=null && !sceneFlowStarted)
                 {sceneFlowStarted=true;SaveSystem.SelectSlot(1);g.NewGame();return;}
                 if(g==null||g.world==null){if(EditorApplication.timeSinceStartup-started>120)throw new Exception("Menu/loading/game startup timed out");return;}
@@ -85,7 +85,7 @@ namespace LittleElsewhere.Editor
         static void Require(bool condition,string message){if(!condition)throw new Exception(message);}
         static void Finish(bool passed,string message)
         {
-            var g=UnityEngine.Object.FindFirstObjectByType<GameSession>();if(g!=null)g.page="Title";
+            var g=UnityEngine.Object.FindAnyObjectByType<GameSession>();if(g!=null)g.page="Title";
             armed=false;
             foreach(var original in originals)
             {

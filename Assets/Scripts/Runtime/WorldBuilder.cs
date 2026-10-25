@@ -4,6 +4,7 @@ using UnityEngine;
 namespace LittleElsewhere
 {
     public enum Kind { Scenery, Cabin, Wood, Berries, Wildlife, Landmark, Note, Lantern, Fishing, Release, Camp }
+    [System.Serializable]
     public sealed class WorldItem
     {
         public string id, title, text, species;
