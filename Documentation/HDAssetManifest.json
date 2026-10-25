@@ -1,0 +1,763 @@
+{
+  "pine_0": {
+    "size": [
+      996,
+      1470
+    ],
+    "source": "pineA",
+    "crop": null,
+    "upscaled": false
+  },
+  "pine_1": {
+    "size": [
+      911,
+      1053
+    ],
+    "source": "pineB",
+    "crop": null,
+    "upscaled": false
+  },
+  "pine_2": {
+    "size": [
+      996,
+      1470
+    ],
+    "source": "pineA",
+    "crop": null,
+    "upscaled": false
+  },
+  "pine_3": {
+    "size": [
+      911,
+      1053
+    ],
+    "source": "pineB",
+    "crop": null,
+    "upscaled": false
+  },
+  "pine_4": {
+    "size": [
+      996,
+      1470
+    ],
+    "source": "pineA",
+    "crop": null,
+    "upscaled": false
+  },
+  "cabin": {
+    "size": [
+      1015,
+      1124
+    ],
+    "source": "cabin",
+    "crop": null,
+    "upscaled": false
+  },
+  "camp": {
+    "size": [
+      974,
+      760
+    ],
+    "source": "camp",
+    "crop": null,
+    "upscaled": false
+  },
+  "lake": {
+    "size": [
+      1151,
+      1145
+    ],
+    "source": "lake",
+    "crop": null,
+    "upscaled": false
+  },
+  "shed": {
+    "size": [
+      342,
+      340
+    ],
+    "source": "props",
+    "crop": [
+      0,
+      0,
+      362,
+      362
+    ],
+    "upscaled": false
+  },
+  "woodstore": {
+    "size": [
+      380,
+      315
+    ],
+    "source": "props",
+    "crop": [
+      362,
+      0,
+      724,
+      362
+    ],
+    "upscaled": false
+  },
+  "bench": {
+    "size": [
+      327,
+      200
+    ],
+    "source": "props",
+    "crop": [
+      724,
+      0,
+      1086,
+      362
+    ],
+    "upscaled": false
+  },
+  "dock": {
+    "size": [
+      311,
+      325
+    ],
+    "source": "props",
+    "crop": [
+      1086,
+      0,
+      1448,
+      362
+    ],
+    "upscaled": false
+  },
+  "boat": {
+    "size": [
+      294,
+      380
+    ],
+    "source": "props",
+    "crop": [
+      0,
+      362,
+      362,
+      724
+    ],
+    "upscaled": false
+  },
+  "rock_0": {
+    "size": [
+      343,
+      380
+    ],
+    "source": "props",
+    "crop": [
+      362,
+      362,
+      724,
+      724
+    ],
+    "upscaled": false
+  },
+  "berries": {
+    "size": [
+      296,
+      380
+    ],
+    "source": "props",
+    "crop": [
+      724,
+      362,
+      1086,
+      724
+    ],
+    "upscaled": false
+  },
+  "logs": {
+    "size": [
+      251,
+      334
+    ],
+    "source": "props",
+    "crop": [
+      1086,
+      362,
+      1448,
+      724
+    ],
+    "upscaled": false
+  },
+  "sign": {
+    "size": [
+      220,
+      319
+    ],
+    "source": "props",
+    "crop": [
+      0,
+      724,
+      362,
+      1086
+    ],
+    "upscaled": false
+  },
+  "lantern": {
+    "size": [
+      139,
+      319
+    ],
+    "source": "props",
+    "crop": [
+      362,
+      724,
+      724,
+      1086
+    ],
+    "upscaled": false
+  },
+  "bare_0": {
+    "size": [
+      366,
+      341
+    ],
+    "source": "props",
+    "crop": [
+      724,
+      724,
+      1086,
+      1086
+    ],
+    "upscaled": false
+  },
+  "bush": {
+    "size": [
+      317,
+      224
+    ],
+    "source": "props",
+    "crop": [
+      1086,
+      724,
+      1448,
+      1086
+    ],
+    "upscaled": false
+  },
+  "rock_1": {
+    "size": [
+      343,
+      380
+    ],
+    "source": "props",
+    "crop": null,
+    "upscaled": false
+  },
+  "rock_2": {
+    "size": [
+      343,
+      380
+    ],
+    "source": "props",
+    "crop": null,
+    "upscaled": false
+  },
+  "bare_1": {
+    "size": [
+      366,
+      341
+    ],
+    "source": "props",
+    "crop": null,
+    "upscaled": false
+  },
+  "fox_0": {
+    "size": [
+      454,
+      481
+    ],
+    "source": "wildlife",
+    "crop": [
+      0,
+      0,
+      512,
+      512
+    ],
+    "upscaled": false
+  },
+  "deer_0": {
+    "size": [
+      538,
+      508
+    ],
+    "source": "wildlife",
+    "crop": [
+      512,
+      0,
+      1024,
+      512
+    ],
+    "upscaled": false
+  },
+  "rabbit_0": {
+    "size": [
+      469,
+      369
+    ],
+    "source": "wildlife",
+    "crop": [
+      1024,
+      0,
+      1536,
+      512
+    ],
+    "upscaled": false
+  },
+  "squirrel_0": {
+    "size": [
+      445,
+      472
+    ],
+    "source": "wildlife",
+    "crop": [
+      0,
+      512,
+      512,
+      1024
+    ],
+    "upscaled": false
+  },
+  "bird_0": {
+    "size": [
+      327,
+      461
+    ],
+    "source": "wildlife",
+    "crop": [
+      512,
+      512,
+      1024,
+      1024
+    ],
+    "upscaled": false
+  },
+  "owl_0": {
+    "size": [
+      409,
+      406
+    ],
+    "source": "wildlife",
+    "crop": [
+      1024,
+      512,
+      1536,
+      1024
+    ],
+    "upscaled": false
+  },
+  "icon_pack": {
+    "size": [
+      400,
+      403
+    ],
+    "source": "icons",
+    "crop": [
+      0,
+      0,
+      444,
+      444
+    ],
+    "upscaled": false
+  },
+  "icon_map": {
+    "size": [
+      448,
+      348
+    ],
+    "source": "icons",
+    "crop": [
+      444,
+      0,
+      887,
+      444
+    ],
+    "upscaled": false
+  },
+  "icon_journal": {
+    "size": [
+      447,
+      390
+    ],
+    "source": "icons",
+    "crop": [
+      887,
+      0,
+      1330,
+      444
+    ],
+    "upscaled": false
+  },
+  "icon_fish": {
+    "size": [
+      390,
+      333
+    ],
+    "source": "icons",
+    "crop": [
+      1330,
+      0,
+      1774,
+      444
+    ],
+    "upscaled": false
+  },
+  "icon_lantern": {
+    "size": [
+      239,
+      392
+    ],
+    "source": "icons",
+    "crop": [
+      0,
+      444,
+      444,
+      887
+    ],
+    "upscaled": false
+  },
+  "icon_crane": {
+    "size": [
+      411,
+      330
+    ],
+    "source": "icons",
+    "crop": [
+      444,
+      444,
+      887,
+      887
+    ],
+    "upscaled": false
+  },
+  "icon_logs": {
+    "size": [
+      401,
+      361
+    ],
+    "source": "icons",
+    "crop": [
+      887,
+      444,
+      1330,
+      887
+    ],
+    "upscaled": false
+  },
+  "icon_rock": {
+    "size": [
+      403,
+      332
+    ],
+    "source": "icons",
+    "crop": [
+      1330,
+      444,
+      1774,
+      887
+    ],
+    "upscaled": false
+  },
+  "player_down_0": {
+    "size": [
+      314,
+      314
+    ],
+    "source": "player",
+    "crop": [
+      0,
+      0,
+      314,
+      314
+    ],
+    "upscaled": false
+  },
+  "player_idle_0": {
+    "size": [
+      314,
+      314
+    ],
+    "source": "player",
+    "crop": [
+      0,
+      0,
+      314,
+      314
+    ],
+    "upscaled": false
+  },
+  "player_down_1": {
+    "size": [
+      314,
+      314
+    ],
+    "source": "player",
+    "crop": [
+      314,
+      0,
+      627,
+      314
+    ],
+    "upscaled": false
+  },
+  "player_idle_1": {
+    "size": [
+      314,
+      314
+    ],
+    "source": "player",
+    "crop": [
+      314,
+      0,
+      627,
+      314
+    ],
+    "upscaled": false
+  },
+  "player_down_2": {
+    "size": [
+      314,
+      314
+    ],
+    "source": "player",
+    "crop": [
+      627,
+      0,
+      940,
+      314
+    ],
+    "upscaled": false
+  },
+  "player_idle_2": {
+    "size": [
+      314,
+      314
+    ],
+    "source": "player",
+    "crop": [
+      627,
+      0,
+      940,
+      314
+    ],
+    "upscaled": false
+  },
+  "player_down_3": {
+    "size": [
+      314,
+      314
+    ],
+    "source": "player",
+    "crop": [
+      940,
+      0,
+      1254,
+      314
+    ],
+    "upscaled": false
+  },
+  "player_idle_3": {
+    "size": [
+      314,
+      314
+    ],
+    "source": "player",
+    "crop": [
+      940,
+      0,
+      1254,
+      314
+    ],
+    "upscaled": false
+  },
+  "player_up_0": {
+    "size": [
+      314,
+      314
+    ],
+    "source": "player",
+    "crop": [
+      0,
+      314,
+      314,
+      627
+    ],
+    "upscaled": false
+  },
+  "player_up_1": {
+    "size": [
+      314,
+      314
+    ],
+    "source": "player",
+    "crop": [
+      314,
+      314,
+      627,
+      627
+    ],
+    "upscaled": false
+  },
+  "player_up_2": {
+    "size": [
+      314,
+      314
+    ],
+    "source": "player",
+    "crop": [
+      627,
+      314,
+      940,
+      627
+    ],
+    "upscaled": false
+  },
+  "player_up_3": {
+    "size": [
+      314,
+      314
+    ],
+    "source": "player",
+    "crop": [
+      940,
+      314,
+      1254,
+      627
+    ],
+    "upscaled": false
+  },
+  "player_left_0": {
+    "size": [
+      314,
+      314
+    ],
+    "source": "player",
+    "crop": [
+      0,
+      627,
+      314,
+      940
+    ],
+    "upscaled": false
+  },
+  "player_left_1": {
+    "size": [
+      314,
+      314
+    ],
+    "source": "player",
+    "crop": [
+      314,
+      627,
+      627,
+      940
+    ],
+    "upscaled": false
+  },
+  "player_left_2": {
+    "size": [
+      314,
+      314
+    ],
+    "source": "player",
+    "crop": [
+      627,
+      627,
+      940,
+      940
+    ],
+    "upscaled": false
+  },
+  "player_left_3": {
+    "size": [
+      314,
+      314
+    ],
+    "source": "player",
+    "crop": [
+      940,
+      627,
+      1254,
+      940
+    ],
+    "upscaled": false
+  },
+  "player_right_0": {
+    "size": [
+      314,
+      314
+    ],
+    "source": "player",
+    "crop": [
+      0,
+      940,
+      314,
+      1254
+    ],
+    "upscaled": false
+  },
+  "player_right_1": {
+    "size": [
+      314,
+      314
+    ],
+    "source": "player",
+    "crop": [
+      314,
+      940,
+      627,
+      1254
+    ],
+    "upscaled": false
+  },
+  "player_right_2": {
+    "size": [
+      314,
+      314
+    ],
+    "source": "player",
+    "crop": [
+      627,
+      940,
+      940,
+      1254
+    ],
+    "upscaled": false
+  },
+  "player_right_3": {
+    "size": [
+      314,
+      314
+    ],
+    "source": "player",
+    "crop": [
+      940,
+      940,
+      1254,
+      1254
+    ],
+    "upscaled": false
+  },
+  "landscape": {
+    "size": [
+      1672,
+      941
+    ],
+    "source": "menu",
+    "crop": null,
+    "upscaled": false
+  },
+  "snow": {
+    "size": [
+      2508,
+      2508
+    ],
+    "source": "snow (mirrored seamless arrangement)",
+    "crop": null,
+    "upscaled": false
+  }
+}

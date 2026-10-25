@@ -1,0 +1,6 @@
+pillow>=10
+numpy>=1.26
+scipy>=1.11
+# Optional, used by verify_project.py for C# syntax checks:
+tree-sitter>=0.24
+tree-sitter-c-sharp>=0.23

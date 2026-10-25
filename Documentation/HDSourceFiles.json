@@ -1,0 +1,13 @@
+{
+  "pineA": "Assets/ArtSources/pineA.png",
+  "cabin": "Assets/ArtSources/cabin.png",
+  "player": "Assets/ArtSources/player.png",
+  "camp": "Assets/ArtSources/camp.png",
+  "lake": "Assets/ArtSources/lake.png",
+  "wildlife": "Assets/ArtSources/wildlife.png",
+  "props": "Assets/ArtSources/props.png",
+  "menu": "Assets/ArtSources/menu.png",
+  "pineB": "Assets/ArtSources/pineB.png",
+  "snow": "Assets/ArtSources/snow.png",
+  "icons": "Assets/ArtSources/icons.png"
+}

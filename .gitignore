@@ -1,35 +1,10 @@
-# Unity generated files and folders
-/[Ll]ibrary/
-/[Tt]emp/
-/[Oo]bj/
-/[Bb]uild/
-/[Bb]uilds/
-/[Ll]ogs/
-/[Uu]ser[Ss]ettings/
-/[Mm]emoryCaptures/
-/[Rr]ecordings/
-
-# Visual Studio / VS Code / Rider project files
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uilds/
+[Ll]ogs/
+UserSettings/
 .vs/
-.idea/
-.vscode/
 *.csproj
-*.unityproj
 *.sln
-*.slnx
-*.suo
-*.tmp
-*.user
-*.userprefs
-*.pidb
-*.booproj
-*.svd
-*.pdb
-*.opendb
-*.VC.db
-
-# OS generated
 .DS_Store
-.DS_Store?
-ehthumbs.db
-Thumbs.db

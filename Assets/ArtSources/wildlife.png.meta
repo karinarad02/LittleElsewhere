@@ -1,0 +1,3226 @@
+fileFormatVersion: 2
+guid: 3f28f7e15e68e684189f321848762b64
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4439343653186579440
+    second: wildlife_0
+  - first:
+      213: 7993966114160344148
+    second: wildlife_1
+  - first:
+      213: 932267167958211069
+    second: wildlife_2
+  - first:
+      213: 1760213656511142755
+    second: wildlife_3
+  - first:
+      213: 2570242411802681544
+    second: wildlife_4
+  - first:
+      213: 5401839518798713088
+    second: wildlife_5
+  - first:
+      213: 4774340790124085109
+    second: wildlife_6
+  - first:
+      213: -3930453890389720067
+    second: wildlife_7
+  - first:
+      213: -7430226428040621052
+    second: wildlife_8
+  - first:
+      213: 6737933437230020426
+    second: wildlife_9
+  - first:
+      213: -8359784119037078619
+    second: wildlife_10
+  - first:
+      213: -8952555390227797948
+    second: wildlife_11
+  - first:
+      213: 8111281540914282182
+    second: wildlife_12
+  - first:
+      213: -3268886540797149556
+    second: wildlife_13
+  - first:
+      213: -923865080011829633
+    second: wildlife_14
+  - first:
+      213: 7120768886870407620
+    second: wildlife_15
+  - first:
+      213: 3025346460169626154
+    second: wildlife_16
+  - first:
+      213: 6678283680330448946
+    second: wildlife_17
+  - first:
+      213: -7750787564712154740
+    second: wildlife_18
+  - first:
+      213: -8825603115911747775
+    second: wildlife_19
+  - first:
+      213: 7127415104347403949
+    second: wildlife_20
+  - first:
+      213: -1772201330137183792
+    second: wildlife_21
+  - first:
+      213: 2376296214147220159
+    second: wildlife_22
+  - first:
+      213: 5287906067209014446
+    second: wildlife_23
+  - first:
+      213: -8253442254296070789
+    second: wildlife_24
+  - first:
+      213: 5186941048279675705
+    second: wildlife_25
+  - first:
+      213: -7467208334988743582
+    second: wildlife_26
+  - first:
+      213: -9194319007411021241
+    second: wildlife_27
+  - first:
+      213: 7339657066982530302
+    second: wildlife_28
+  - first:
+      213: 354552811070674258
+    second: wildlife_29
+  - first:
+      213: -8127196263320626739
+    second: wildlife_30
+  - first:
+      213: 2419941130706050234
+    second: wildlife_31
+  - first:
+      213: 6520599557403285917
+    second: wildlife_32
+  - first:
+      213: -6673577837167850230
+    second: wildlife_33
+  - first:
+      213: 1317895191169871412
+    second: wildlife_34
+  - first:
+      213: 6961933589272537178
+    second: wildlife_35
+  - first:
+      213: -5891266957827937922
+    second: wildlife_36
+  - first:
+      213: -1373753948322392331
+    second: wildlife_37
+  - first:
+      213: 3442461846617883952
+    second: wildlife_38
+  - first:
+      213: 5965145708236248983
+    second: wildlife_39
+  - first:
+      213: -6428916945624715188
+    second: wildlife_40
+  - first:
+      213: -4696473556846028010
+    second: wildlife_41
+  - first:
+      213: -3134650985539990445
+    second: wildlife_42
+  - first:
+      213: -1338287523674971712
+    second: wildlife_43
+  - first:
+      213: -9185161256715665902
+    second: wildlife_44
+  - first:
+      213: 1658863116512199381
+    second: wildlife_45
+  - first:
+      213: 247235558117588000
+    second: wildlife_46
+  - first:
+      213: -8438984560999406737
+    second: wildlife_47
+  - first:
+      213: -8453663520616990410
+    second: wildlife_48
+  - first:
+      213: 6258942484955731065
+    second: wildlife_49
+  - first:
+      213: -4690797667043979850
+    second: wildlife_50
+  - first:
+      213: 950311263407113767
+    second: wildlife_51
+  - first:
+      213: 9020529681852227106
+    second: wildlife_52
+  - first:
+      213: -4238218519643839555
+    second: wildlife_53
+  - first:
+      213: -4855305812809963807
+    second: wildlife_54
+  - first:
+      213: 1427493830366834807
+    second: wildlife_55
+  - first:
+      213: -6299825699860689136
+    second: wildlife_56
+  - first:
+      213: 4887172206405563567
+    second: wildlife_57
+  - first:
+      213: 3756416057321882871
+    second: wildlife_58
+  - first:
+      213: 8944449148623229424
+    second: wildlife_59
+  - first:
+      213: 3052393334294579071
+    second: wildlife_60
+  - first:
+      213: -1919129421251346552
+    second: wildlife_61
+  - first:
+      213: 7607972788890906873
+    second: wildlife_62
+  - first:
+      213: -2573821596288306580
+    second: wildlife_63
+  - first:
+      213: 1145871969304077116
+    second: wildlife_64
+  - first:
+      213: -752733527539663146
+    second: wildlife_65
+  - first:
+      213: -3719478588169503829
+    second: wildlife_66
+  - first:
+      213: 3411347975300584460
+    second: wildlife_67
+  - first:
+      213: 3682480458190105987
+    second: wildlife_68
+  - first:
+      213: 3241021538645882940
+    second: wildlife_69
+  - first:
+      213: 3334288806303671740
+    second: wildlife_70
+  - first:
+      213: -6296800373035817981
+    second: wildlife_71
+  - first:
+      213: 2344330157263296888
+    second: wildlife_72
+  - first:
+      213: 8064651438186521210
+    second: wildlife_73
+  - first:
+      213: -3294670347774011515
+    second: wildlife_74
+  - first:
+      213: -9186849327079654064
+    second: wildlife_75
+  - first:
+      213: 2471697458226847912
+    second: wildlife_76
+  - first:
+      213: -324177567987724558
+    second: wildlife_77
+  - first:
+      213: -2490227901862182965
+    second: wildlife_78
+  - first:
+      213: 5798546346360638492
+    second: wildlife_79
+  - first:
+      213: 533894913102150846
+    second: wildlife_80
+  - first:
+      213: -7567879879765803847
+    second: wildlife_81
+  - first:
+      213: 7264784628639052897
+    second: wildlife_82
+  - first:
+      213: 5413077576831676891
+    second: wildlife_83
+  - first:
+      213: -4840537684602380258
+    second: wildlife_84
+  - first:
+      213: 2991874463906616677
+    second: wildlife_85
+  - first:
+      213: -7543575657333657676
+    second: wildlife_86
+  - first:
+      213: 7846794944137898716
+    second: wildlife_87
+  - first:
+      213: 9058841423368045376
+    second: wildlife_88
+  - first:
+      213: -2660557171220387552
+    second: wildlife_89
+  - first:
+      213: -4922984852442345642
+    second: wildlife_90
+  - first:
+      213: 7060577726677461990
+    second: wildlife_91
+  - first:
+      213: -5657168055589726805
+    second: wildlife_92
+  - first:
+      213: 5187259757262354090
+    second: wildlife_93
+  - first:
+      213: 5117021735307876742
+    second: wildlife_94
+  - first:
+      213: -6615028627305971496
+    second: wildlife_95
+  - first:
+      213: -714400743041077049
+    second: wildlife_96
+  - first:
+      213: -5419399633339152962
+    second: wildlife_97
+  - first:
+      213: -7769606791355784187
+    second: wildlife_98
+  - first:
+      213: 268574063165710011
+    second: wildlife_99
+  - first:
+      213: -4648078082614254945
+    second: wildlife_100
+  - first:
+      213: -2097486419149752003
+    second: wildlife_101
+  - first:
+      213: -2987394601829031805
+    second: wildlife_102
+  - first:
+      213: 3315144301583265790
+    second: wildlife_103
+  - first:
+      213: -3040029255687220192
+    second: wildlife_104
+  - first:
+      213: -1669046288499407598
+    second: wildlife_105
+  - first:
+      213: -2493997226803881312
+    second: wildlife_106
+  - first:
+      213: -4329646310618860622
+    second: wildlife_107
+  - first:
+      213: -4698517453206440449
+    second: wildlife_108
+  - first:
+      213: 82299220410247072
+    second: wildlife_109
+  - first:
+      213: -8952467592124626895
+    second: wildlife_110
+  - first:
+      213: 1002619624845636064
+    second: wildlife_111
+  - first:
+      213: 7287587900315091963
+    second: wildlife_112
+  - first:
+      213: -566209373525143656
+    second: wildlife_113
+  - first:
+      213: 8887019413713355891
+    second: wildlife_114
+  - first:
+      213: 8556504200512792375
+    second: wildlife_115
+  - first:
+      213: -2347864137918065380
+    second: wildlife_116
+  - first:
+      213: -1357070695589738885
+    second: wildlife_117
+  - first:
+      213: -4065809800820983541
+    second: wildlife_118
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationMethod: 0
+  spriteTessellationDetail: -1
+  spriteGeometrySubdivision: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: wildlife_0
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 493
+        width: 577
+        height: 509
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0fb221c2887bb9d30800000000000000
+      internalID: 4439343653186579440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wildlife_1
+      rect:
+        serializedVersion: 2
+        x: 548
+        y: 957
+        width: 47
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45c7905b3d540fe60800000000000000
+      internalID: 7993966114160344148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wildlife_2
+      rect:
+        serializedVersion: 2
+        x: 594
+        y: 399
+        width: 479
+        height: 617
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df998e5cc0410fc00800000000000000
+      internalID: 932267167958211069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wildlife_3
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 995
+        width: 26
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36b532d9ef88d6810800000000000000
+      internalID: 1760213656511142755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wildlife_4
+      rect:
+        serializedVersion: 2
+        x: 1028
+        y: 981
+        width: 69
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c064261bd55ba320800000000000000
+      internalID: 2570242411802681544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wildlife_5
+      rect:
+        serializedVersion: 2
+        x: 1178
+        y: 889
+        width: 163
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0011aa31c6037fa40800000000000000
+      internalID: 5401839518798713088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wildlife_6
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 959
+        width: 25
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57ff00037add14240800000000000000
+      internalID: 4774340790124085109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wildlife_7
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 943
+        width: 47
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df3c449d2093479c0800000000000000
+      internalID: -3930453890389720067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wildlife_8
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 967
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4045be34e6882e890800000000000000
+      internalID: -7430226428040621052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wildlife_9
+      rect:
+        serializedVersion: 2
+        x: 1464
+        y: 923
+        width: 49
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a47725613c2f18d50800000000000000
+      internalID: 6737933437230020426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wildlife_10
+      rect:
+        serializedVersion: 2
+        x: 1044
+        y: 938
+        width: 17
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a3d7d1c2a41cfb80800000000000000
+      internalID: -8359784119037078619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wildlife_11
+      rect:
+        serializedVersion: 2
+        x: 1060
+        y: 893
+        width: 93
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 448a6752e4222c380800000000000000
+      internalID: -8952555390227797948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wildlife_12
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 907
+        width: 29
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6cef067069f019070800000000000000
+      internalID: 8111281540914282182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wildlife_13
+      rect:
+        serializedVersion: 2
+        x: 1038
+        y: 910
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8efabca20592a2d0800000000000000
+      internalID: -3268886540797149556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wildlife_14
+      rect:
+        serializedVersion: 2
+        x: 1488
+        y: 918
+        width: 19
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7ec185ca95cd23f0800000000000000
+      internalID: -923865080011829633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wildlife_15
+      rect:
+        serializedVersion: 2
+        x: 1030
+        y: 875
+        width: 47
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c9709d339d02d260800000000000000
+      internalID: 7120768886870407620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wildlife_16
+      rect:
+        serializedVersion: 2
+        x: 1212
+        y: 907
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2265e893903cf920800000000000000
+      internalID: 3025346460169626154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wildlife_17
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 881
+        width: 43
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 230826bcf970eac50800000000000000
+      internalID: 6678283680330448946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wildlife_18
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 819
+        width: 65
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8921db76cbaf6490800000000000000
+      internalID: -7750787564712154740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wildlife_19
+      rect:
+        serializedVersion: 2
+        x: 550
+        y: 861
+        width: 11
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 147ef73e9b8258580800000000000000
+      internalID: -8825603115911747775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wildlife_20
+      rect:
+        serializedVersion: 2
+        x: 1074
+        y: 472
+        width: 449
+        height: 414
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da67165564aa9e260800000000000000
+      internalID: 7127415104347403949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wildlife_21
+      rect:
+        serializedVersion: 2
+        x: 1076
+        y: 877
+        width: 33
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d9c2be9740e767e0800000000000000
+      internalID: -1772201330137183792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wildlife_22
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 844
+        width: 21
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb2c95d01dc4af020800000000000000
+      internalID: 2376296214147220159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wildlife_23
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 823
+        width: 27
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eac40a53d8a626940800000000000000
+      internalID: 5287906067209014446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wildlife_24
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 849
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b75cb729ff1e57d80800000000000000
+      internalID: -8253442254296070789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wildlife_25
+      rect:
+        serializedVersion: 2
+        x: 1040
+        y: 849
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9333a9dd667bbf740800000000000000
+      internalID: 5186941048279675705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wildlife_26
+      rect:
+        serializedVersion: 2
+        x: 1046
+        y: 821
+        width: 85
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26ce82115952f5890800000000000000
+      internalID: -7467208334988743582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wildlife_27
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 790
+        width: 67
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74ad4ab8397376080800000000000000
+      internalID: -9194319007411021241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wildlife_28
+      rect:
+        serializedVersion: 2
+        x: 1062
+        y: 818
+        width: 9
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: efcddaa1733bbd560800000000000000
+      internalID: 7339657066982530302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wildlife_29
+      rect:
+        serializedVersion: 2
+        x: 1066
+        y: 773
+        width: 49
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 255dbf537ef9be400800000000000000
+      internalID: 354552811070674258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wildlife_30
+      rect:
+        serializedVersion: 2
+        x: 1110
+        y: 801
+        width: 15
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc954e8ee06663f80800000000000000
+      internalID: -8127196263320626739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wildlife_31
+      rect:
+        serializedVersion: 2
+        x: 1134
+        y: 801
+        width: 11
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: abc571113ab559120800000000000000
+      internalID: 2419941130706050234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wildlife_32
+      rect:
+        serializedVersion: 2
+        x: 1130
+        y: 809
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d999795ffb2dd7a50800000000000000
+      internalID: 6520599557403285917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wildlife_33
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 787
+        width: 7
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0dc0b2b050b263a0800000000000000
+      internalID: -6673577837167850230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wildlife_34
+      rect:
+        serializedVersion: 2
+        x: 1070
+        y: 783
+        width: 17
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43e20e0a1ba1a4210800000000000000
+      internalID: 1317895191169871412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wildlife_35
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 745
+        width: 25
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a58237aa6b1cd9060800000000000000
+      internalID: 6961933589272537178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wildlife_36
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 757
+        width: 7
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e796ba54ae30e3ea0800000000000000
+      internalID: -5891266957827937922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wildlife_37
+      rect:
+        serializedVersion: 2
+        x: 602
+        y: 745
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f6147dff027fece0800000000000000
+      internalID: -1373753948322392331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wildlife_38
+      rect:
+        serializedVersion: 2
+        x: 1094
+        y: 751
+        width: 29
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0358e708fc416cf20800000000000000
+      internalID: 3442461846617883952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wildlife_39
+      rect:
+        serializedVersion: 2
+        x: 568
+        y: 717
+        width: 9
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7971edcba6478c250800000000000000
+      internalID: 5965145708236248983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wildlife_40
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 715
+        width: 7
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c40bc8d8916e7c6a0800000000000000
+      internalID: -6428916945624715188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wildlife_41
+      rect:
+        serializedVersion: 2
+        x: 1124
+        y: 697
+        width: 23
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61b5d2bde26c2deb0800000000000000
+      internalID: -4696473556846028010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wildlife_42
+      rect:
+        serializedVersion: 2
+        x: 542
+        y: 599
+        width: 51
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35c8f08698b7f74d0800000000000000
+      internalID: -3134650985539990445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wildlife_43
+      rect:
+        serializedVersion: 2
+        x: 590
+        y: 609
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c1240876927d6de0800000000000000
+      internalID: -1338287523674971712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wildlife_44
+      rect:
+        serializedVersion: 2
+        x: 1496
+        y: 615
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21e38c88080c78080800000000000000
+      internalID: -9185161256715665902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wildlife_45
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 567
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d205b62737750710800000000000000
+      internalID: 1658863116512199381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wildlife_46
+      rect:
+        serializedVersion: 2
+        x: 566
+        y: 565
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02cb1712e6b5e6300800000000000000
+      internalID: 247235558117588000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wildlife_47
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 513
+        height: 552
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f63ef90e044b2ea80800000000000000
+      internalID: -8438984560999406737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wildlife_48
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 552
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63932f241dd8eaa80800000000000000
+      internalID: -8453663520616990410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wildlife_49
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 545
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 974136d570b3cd650800000000000000
+      internalID: 6258942484955731065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wildlife_50
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 531
+        width: 9
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6bdcc9eef50f6eeb0800000000000000
+      internalID: -4690797667043979850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wildlife_51
+      rect:
+        serializedVersion: 2
+        x: 578
+        y: 528
+        width: 33
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7260f612f0f203d00800000000000000
+      internalID: 950311263407113767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wildlife_52
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 373
+        width: 163
+        height: 157
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22e5bace3fb5f2d70800000000000000
+      internalID: 9020529681852227106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wildlife_53
+      rect:
+        serializedVersion: 2
+        x: 882
+        y: 477
+        width: 15
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db3a52026b2de25c0800000000000000
+      internalID: -4238218519643839555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wildlife_54
+      rect:
+        serializedVersion: 2
+        x: 1092
+        y: 478
+        width: 11
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e6a297761d7e9cb0800000000000000
+      internalID: -4855305812809963807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wildlife_55
+      rect:
+        serializedVersion: 2
+        x: 1256
+        y: 497
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 770b316531a7fc310800000000000000
+      internalID: 1427493830366834807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wildlife_56
+      rect:
+        serializedVersion: 2
+        x: 1270
+        y: 474
+        width: 11
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01f4de467e58298a0800000000000000
+      internalID: -6299825699860689136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wildlife_57
+      rect:
+        serializedVersion: 2
+        x: 1294
+        y: 481
+        width: 17
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa437f67a39b2d340800000000000000
+      internalID: 4887172206405563567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wildlife_58
+      rect:
+        serializedVersion: 2
+        x: 654
+        y: 465
+        width: 21
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f48e357088712430800000000000000
+      internalID: 3756416057321882871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wildlife_59
+      rect:
+        serializedVersion: 2
+        x: 1014
+        y: 465
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f19b376c11112c70800000000000000
+      internalID: 8944449148623229424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wildlife_60
+      rect:
+        serializedVersion: 2
+        x: 1037
+        y: 463
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f770665b0974c5a20800000000000000
+      internalID: 3052393334294579071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wildlife_61
+      rect:
+        serializedVersion: 2
+        x: 1040
+        y: 471
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88fff4895f1ed55e0800000000000000
+      internalID: -1919129421251346552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wildlife_62
+      rect:
+        serializedVersion: 2
+        x: 1046
+        y: 469
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f03ea651f2f49960800000000000000
+      internalID: 7607972788890906873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wildlife_63
+      rect:
+        serializedVersion: 2
+        x: 1046
+        y: 0
+        width: 475
+        height: 475
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c62b10615e2f74cd0800000000000000
+      internalID: -2573821596288306580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wildlife_64
+      rect:
+        serializedVersion: 2
+        x: 598
+        y: 439
+        width: 17
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3362782c74f6ef00800000000000000
+      internalID: 1145871969304077116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wildlife_65
+      rect:
+        serializedVersion: 2
+        x: 614
+        y: 445
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6deb87848d0cd85f0800000000000000
+      internalID: -752733527539663146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wildlife_66
+      rect:
+        serializedVersion: 2
+        x: 658
+        y: 433
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bab3c724ee1c16cc0800000000000000
+      internalID: -3719478588169503829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wildlife_67
+      rect:
+        serializedVersion: 2
+        x: 949
+        y: 433
+        width: 10
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c041a01d8ea875f20800000000000000
+      internalID: 3411347975300584460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wildlife_68
+      rect:
+        serializedVersion: 2
+        x: 1042
+        y: 449
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38d2db2577cca1330800000000000000
+      internalID: 3682480458190105987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wildlife_69
+      rect:
+        serializedVersion: 2
+        x: 572
+        y: 0
+        width: 461
+        height: 425
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c38b060faeb6afc20800000000000000
+      internalID: 3241021538645882940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wildlife_70
+      rect:
+        serializedVersion: 2
+        x: 966
+        y: 135
+        width: 91
+        height: 305
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb5aa46e006c54e20800000000000000
+      internalID: 3334288806303671740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wildlife_71
+      rect:
+        serializedVersion: 2
+        x: 1034
+        y: 339
+        width: 25
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30427af2c654d98a0800000000000000
+      internalID: -6296800373035817981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wildlife_72
+      rect:
+        serializedVersion: 2
+        x: 1496
+        y: 406
+        width: 21
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8791ae37bdbb88020800000000000000
+      internalID: 2344330157263296888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wildlife_73
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 359
+        width: 17
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a72637231c56bef60800000000000000
+      internalID: 8064651438186521210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wildlife_74
+      rect:
+        serializedVersion: 2
+        x: 536
+        y: 343
+        width: 31
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 587daec46caf642d0800000000000000
+      internalID: -3294670347774011515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wildlife_75
+      rect:
+        serializedVersion: 2
+        x: 566
+        y: 349
+        width: 11
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05d71660631c18080800000000000000
+      internalID: -9186849327079654064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wildlife_76
+      rect:
+        serializedVersion: 2
+        x: 584
+        y: 347
+        width: 43
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a0e8dd1ebb3d4220800000000000000
+      internalID: 2471697458226847912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wildlife_77
+      rect:
+        serializedVersion: 2
+        x: 502
+        y: 273
+        width: 35
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2fe01ff283a408bf0800000000000000
+      internalID: -324177567987724558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wildlife_78
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 293
+        width: 75
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bcffcb3caeee07dd0800000000000000
+      internalID: -2490227901862182965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wildlife_79
+      rect:
+        serializedVersion: 2
+        x: 542
+        y: 319
+        width: 23
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1c07741e23987050800000000000000
+      internalID: 5798546346360638492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wildlife_80
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 219
+        width: 35
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ebc77d24896c86700800000000000000
+      internalID: 533894913102150846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wildlife_81
+      rect:
+        serializedVersion: 2
+        x: 976
+        y: 279
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9bcbbbf785d79f690800000000000000
+      internalID: -7567879879765803847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wildlife_82
+      rect:
+        serializedVersion: 2
+        x: 982
+        y: 271
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 164bfb71123b1d460800000000000000
+      internalID: 7264784628639052897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wildlife_83
+      rect:
+        serializedVersion: 2
+        x: 634
+        y: 259
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd13fac506d1f1b40800000000000000
+      internalID: 5413077576831676891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wildlife_84
+      rect:
+        serializedVersion: 2
+        x: 958
+        y: 257
+        width: 19
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1022634f94f2dcb0800000000000000
+      internalID: -4840537684602380258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wildlife_85
+      rect:
+        serializedVersion: 2
+        x: 1056
+        y: 245
+        width: 17
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56557b929f5458920800000000000000
+      internalID: 2991874463906616677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wildlife_86
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 246
+        width: 15
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4bfe75048e5df4790800000000000000
+      internalID: -7543575657333657676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wildlife_87
+      rect:
+        serializedVersion: 2
+        x: 518
+        y: 233
+        width: 18
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cdaaba67d6a65ec60800000000000000
+      internalID: 7846794944137898716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wildlife_88
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 117
+        width: 63
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 043427c574877bd70800000000000000
+      internalID: 9058841423368045376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wildlife_89
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 229
+        width: 17
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0296ac8595dc31bd0800000000000000
+      internalID: -2660557171220387552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wildlife_90
+      rect:
+        serializedVersion: 2
+        x: 958
+        y: 219
+        width: 19
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65f8b8b1c5b0eabb0800000000000000
+      internalID: -4922984852442345642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wildlife_91
+      rect:
+        serializedVersion: 2
+        x: 1056
+        y: 231
+        width: 17
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6eb25aba8063cf160800000000000000
+      internalID: 7060577726677461990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wildlife_92
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 214
+        width: 17
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba513eb50a3bd71b0800000000000000
+      internalID: -5657168055589726805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wildlife_93
+      rect:
+        serializedVersion: 2
+        x: 498
+        y: 183
+        width: 21
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa63d451449dcf740800000000000000
+      internalID: 5187259757262354090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wildlife_94
+      rect:
+        serializedVersion: 2
+        x: 966
+        y: 175
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6899af83820530740800000000000000
+      internalID: 5117021735307876742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wildlife_95
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 17
+        width: 123
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d0436ae282b234a0800000000000000
+      internalID: -6615028627305971496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wildlife_96
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 121
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c0f2cb2f40f516f0800000000000000
+      internalID: -714400743041077049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wildlife_97
+      rect:
+        serializedVersion: 2
+        x: 536
+        y: 119
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb500f62fbc6ac4b0800000000000000
+      internalID: -5419399633339152962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wildlife_98
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 119
+        width: 21
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 504a6c4d9cfcc2490800000000000000
+      internalID: -7769606791355784187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wildlife_99
+      rect:
+        serializedVersion: 2
+        x: 572
+        y: 81
+        width: 54
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bbe10eeffaa2ab300800000000000000
+      internalID: 268574063165710011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wildlife_100
+      rect:
+        serializedVersion: 2
+        x: 474
+        y: 37
+        width: 21
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f92af754c95be7fb0800000000000000
+      internalID: -4648078082614254945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wildlife_101
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 74
+        width: 25
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d397f59f63b34e2e0800000000000000
+      internalID: -2097486419149752003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wildlife_102
+      rect:
+        serializedVersion: 2
+        x: 534
+        y: 59
+        width: 17
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 380af020074aa86d0800000000000000
+      internalID: -2987394601829031805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wildlife_103
+      rect:
+        serializedVersion: 2
+        x: 550
+        y: 57
+        width: 29
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: effe70b8d22c10e20800000000000000
+      internalID: 3315144301583265790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wildlife_104
+      rect:
+        serializedVersion: 2
+        x: 994
+        y: 67
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 024d7fbaf75afc5d0800000000000000
+      internalID: -3040029255687220192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wildlife_105
+      rect:
+        serializedVersion: 2
+        x: 1504
+        y: 77
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2150f4c5e3b56d8e0800000000000000
+      internalID: -1669046288499407598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wildlife_106
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 26
+        width: 27
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0aa9b896cba836dd0800000000000000
+      internalID: -2493997226803881312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wildlife_107
+      rect:
+        serializedVersion: 2
+        x: 492
+        y: 39
+        width: 9
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b37b74be910ae3c0800000000000000
+      internalID: -4329646310618860622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wildlife_108
+      rect:
+        serializedVersion: 2
+        x: 536
+        y: 9
+        width: 37
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff538a625438bceb0800000000000000
+      internalID: -4698517453206440449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wildlife_109
+      rect:
+        serializedVersion: 2
+        x: 1066
+        y: 57
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a728d574b2642100800000000000000
+      internalID: 82299220410247072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wildlife_110
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 39
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 138073c382272c380800000000000000
+      internalID: -8952467592124626895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wildlife_111
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 34
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e172c79c350aed00800000000000000
+      internalID: 1002619624845636064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wildlife_112
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 35
+        width: 10
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf347b38596b22560800000000000000
+      internalID: 7287587900315091963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wildlife_113
+      rect:
+        serializedVersion: 2
+        x: 782
+        y: 35
+        width: 9
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89f898e139b6428f0800000000000000
+      internalID: -566209373525143656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wildlife_114
+      rect:
+        serializedVersion: 2
+        x: 964
+        y: 31
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37482624219055b70800000000000000
+      internalID: 8887019413713355891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wildlife_115
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 17
+        width: 7
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 737e3be6c3fceb670800000000000000
+      internalID: 8556504200512792375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wildlife_116
+      rect:
+        serializedVersion: 2
+        x: 444
+        y: 0
+        width: 43
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c15d38e8106ba6fd0800000000000000
+      internalID: -2347864137918065380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wildlife_117
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 13
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7608467467ba2de0800000000000000
+      internalID: -1357070695589738885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wildlife_118
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 9
+        width: 27
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0973c917875397c0800000000000000
+      internalID: -4065809800820983541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      wildlife_0: 4439343653186579440
+      wildlife_1: 7993966114160344148
+      wildlife_10: -8359784119037078619
+      wildlife_100: -4648078082614254945
+      wildlife_101: -2097486419149752003
+      wildlife_102: -2987394601829031805
+      wildlife_103: 3315144301583265790
+      wildlife_104: -3040029255687220192
+      wildlife_105: -1669046288499407598
+      wildlife_106: -2493997226803881312
+      wildlife_107: -4329646310618860622
+      wildlife_108: -4698517453206440449
+      wildlife_109: 82299220410247072
+      wildlife_11: -8952555390227797948
+      wildlife_110: -8952467592124626895
+      wildlife_111: 1002619624845636064
+      wildlife_112: 7287587900315091963
+      wildlife_113: -566209373525143656
+      wildlife_114: 8887019413713355891
+      wildlife_115: 8556504200512792375
+      wildlife_116: -2347864137918065380
+      wildlife_117: -1357070695589738885
+      wildlife_118: -4065809800820983541
+      wildlife_12: 8111281540914282182
+      wildlife_13: -3268886540797149556
+      wildlife_14: -923865080011829633
+      wildlife_15: 7120768886870407620
+      wildlife_16: 3025346460169626154
+      wildlife_17: 6678283680330448946
+      wildlife_18: -7750787564712154740
+      wildlife_19: -8825603115911747775
+      wildlife_2: 932267167958211069
+      wildlife_20: 7127415104347403949
+      wildlife_21: -1772201330137183792
+      wildlife_22: 2376296214147220159
+      wildlife_23: 5287906067209014446
+      wildlife_24: -8253442254296070789
+      wildlife_25: 5186941048279675705
+      wildlife_26: -7467208334988743582
+      wildlife_27: -9194319007411021241
+      wildlife_28: 7339657066982530302
+      wildlife_29: 354552811070674258
+      wildlife_3: 1760213656511142755
+      wildlife_30: -8127196263320626739
+      wildlife_31: 2419941130706050234
+      wildlife_32: 6520599557403285917
+      wildlife_33: -6673577837167850230
+      wildlife_34: 1317895191169871412
+      wildlife_35: 6961933589272537178
+      wildlife_36: -5891266957827937922
+      wildlife_37: -1373753948322392331
+      wildlife_38: 3442461846617883952
+      wildlife_39: 5965145708236248983
+      wildlife_4: 2570242411802681544
+      wildlife_40: -6428916945624715188
+      wildlife_41: -4696473556846028010
+      wildlife_42: -3134650985539990445
+      wildlife_43: -1338287523674971712
+      wildlife_44: -9185161256715665902
+      wildlife_45: 1658863116512199381
+      wildlife_46: 247235558117588000
+      wildlife_47: -8438984560999406737
+      wildlife_48: -8453663520616990410
+      wildlife_49: 6258942484955731065
+      wildlife_5: 5401839518798713088
+      wildlife_50: -4690797667043979850
+      wildlife_51: 950311263407113767
+      wildlife_52: 9020529681852227106
+      wildlife_53: -4238218519643839555
+      wildlife_54: -4855305812809963807
+      wildlife_55: 1427493830366834807
+      wildlife_56: -6299825699860689136
+      wildlife_57: 4887172206405563567
+      wildlife_58: 3756416057321882871
+      wildlife_59: 8944449148623229424
+      wildlife_6: 4774340790124085109
+      wildlife_60: 3052393334294579071
+      wildlife_61: -1919129421251346552
+      wildlife_62: 7607972788890906873
+      wildlife_63: -2573821596288306580
+      wildlife_64: 1145871969304077116
+      wildlife_65: -752733527539663146
+      wildlife_66: -3719478588169503829
+      wildlife_67: 3411347975300584460
+      wildlife_68: 3682480458190105987
+      wildlife_69: 3241021538645882940
+      wildlife_7: -3930453890389720067
+      wildlife_70: 3334288806303671740
+      wildlife_71: -6296800373035817981
+      wildlife_72: 2344330157263296888
+      wildlife_73: 8064651438186521210
+      wildlife_74: -3294670347774011515
+      wildlife_75: -9186849327079654064
+      wildlife_76: 2471697458226847912
+      wildlife_77: -324177567987724558
+      wildlife_78: -2490227901862182965
+      wildlife_79: 5798546346360638492
+      wildlife_8: -7430226428040621052
+      wildlife_80: 533894913102150846
+      wildlife_81: -7567879879765803847
+      wildlife_82: 7264784628639052897
+      wildlife_83: 5413077576831676891
+      wildlife_84: -4840537684602380258
+      wildlife_85: 2991874463906616677
+      wildlife_86: -7543575657333657676
+      wildlife_87: 7846794944137898716
+      wildlife_88: 9058841423368045376
+      wildlife_89: -2660557171220387552
+      wildlife_9: 6737933437230020426
+      wildlife_90: -4922984852442345642
+      wildlife_91: 7060577726677461990
+      wildlife_92: -5657168055589726805
+      wildlife_93: 5187259757262354090
+      wildlife_94: 5117021735307876742
+      wildlife_95: -6615028627305971496
+      wildlife_96: -714400743041077049
+      wildlife_97: -5419399633339152962
+      wildlife_98: -7769606791355784187
+      wildlife_99: 268574063165710011
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

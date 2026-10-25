@@ -6,14 +6,12 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/MainMenuScene.unity
-    guid: 6f8b910123ef411894aa109d85732101
+    path: Assets/Scenes/MainMenu.unity
+    guid: 81349f268b9e5fe3a2b2577698a98a61
   - enabled: 1
-    path: Assets/Scenes/LoadingScene.unity
-    guid: 3a921d0092834bfa8529011122ef4502
+    path: Assets/Scenes/Loading.unity
+    guid: 32c12b24c40a50a590ba1fc0e65d1966
   - enabled: 1
-    path: Assets/Scenes/MainGameScene.unity
-    guid: e061e36559e3466387f859a29aef7e87
-  m_configObjects:
-    com.unity.dt.app-ui: {fileID: 11400000, guid: 1b1c20d82303e4b5781c3ef50ac1449f, type: 2}
-    com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
+    path: Assets/Scenes/LittleElsewhere.unity
+    guid: edcca240d1f05731822153db658e5c9e
+  m_configObjects: {}

@@ -1,0 +1,762 @@
+{
+  "player_idle_0": {
+    "source": "assets.png",
+    "rect_xyxy": [
+      33,
+      46,
+      91,
+      123
+    ],
+    "paper_removed": true
+  },
+  "player_idle_1": {
+    "source": "assets.png",
+    "rect_xyxy": [
+      91,
+      46,
+      149,
+      123
+    ],
+    "paper_removed": true
+  },
+  "player_idle_2": {
+    "source": "assets.png",
+    "rect_xyxy": [
+      150,
+      46,
+      208,
+      123
+    ],
+    "paper_removed": true
+  },
+  "player_idle_3": {
+    "source": "assets.png",
+    "rect_xyxy": [
+      210,
+      46,
+      268,
+      123
+    ],
+    "paper_removed": true
+  },
+  "player_down_0": {
+    "source": "assets.png",
+    "rect_xyxy": [
+      33,
+      147,
+      91,
+      224
+    ],
+    "paper_removed": true
+  },
+  "player_down_1": {
+    "source": "assets.png",
+    "rect_xyxy": [
+      91,
+      147,
+      149,
+      224
+    ],
+    "paper_removed": true
+  },
+  "player_down_2": {
+    "source": "assets.png",
+    "rect_xyxy": [
+      150,
+      147,
+      208,
+      224
+    ],
+    "paper_removed": true
+  },
+  "player_down_3": {
+    "source": "assets.png",
+    "rect_xyxy": [
+      210,
+      147,
+      268,
+      224
+    ],
+    "paper_removed": true
+  },
+  "player_up_0": {
+    "source": "assets.png",
+    "rect_xyxy": [
+      33,
+      257,
+      91,
+      334
+    ],
+    "paper_removed": true
+  },
+  "player_up_1": {
+    "source": "assets.png",
+    "rect_xyxy": [
+      91,
+      257,
+      149,
+      334
+    ],
+    "paper_removed": true
+  },
+  "player_up_2": {
+    "source": "assets.png",
+    "rect_xyxy": [
+      150,
+      257,
+      208,
+      334
+    ],
+    "paper_removed": true
+  },
+  "player_up_3": {
+    "source": "assets.png",
+    "rect_xyxy": [
+      210,
+      257,
+      268,
+      334
+    ],
+    "paper_removed": true
+  },
+  "player_left_0": {
+    "source": "assets.png",
+    "rect_xyxy": [
+      33,
+      372,
+      91,
+      449
+    ],
+    "paper_removed": true
+  },
+  "player_left_1": {
+    "source": "assets.png",
+    "rect_xyxy": [
+      91,
+      372,
+      149,
+      449
+    ],
+    "paper_removed": true
+  },
+  "player_left_2": {
+    "source": "assets.png",
+    "rect_xyxy": [
+      150,
+      372,
+      208,
+      449
+    ],
+    "paper_removed": true
+  },
+  "player_left_3": {
+    "source": "assets.png",
+    "rect_xyxy": [
+      210,
+      372,
+      268,
+      449
+    ],
+    "paper_removed": true
+  },
+  "player_right_0": {
+    "source": "assets.png",
+    "rect_xyxy": [
+      33,
+      493,
+      91,
+      570
+    ],
+    "paper_removed": true
+  },
+  "player_right_1": {
+    "source": "assets.png",
+    "rect_xyxy": [
+      91,
+      493,
+      149,
+      570
+    ],
+    "paper_removed": true
+  },
+  "player_right_2": {
+    "source": "assets.png",
+    "rect_xyxy": [
+      150,
+      493,
+      208,
+      570
+    ],
+    "paper_removed": true
+  },
+  "player_right_3": {
+    "source": "assets.png",
+    "rect_xyxy": [
+      210,
+      493,
+      268,
+      570
+    ],
+    "paper_removed": true
+  },
+  "fox_0": {
+    "source": "assets.png",
+    "rect_xyxy": [
+      313,
+      71,
+      377,
+      138
+    ],
+    "paper_removed": true
+  },
+  "fox_1": {
+    "source": "assets.png",
+    "rect_xyxy": [
+      388,
+      71,
+      452,
+      138
+    ],
+    "paper_removed": true
+  },
+  "fox_2": {
+    "source": "assets.png",
+    "rect_xyxy": [
+      459,
+      71,
+      523,
+      138
+    ],
+    "paper_removed": true
+  },
+  "fox_3": {
+    "source": "assets.png",
+    "rect_xyxy": [
+      532,
+      71,
+      596,
+      138
+    ],
+    "paper_removed": true
+  },
+  "deer_0": {
+    "source": "assets.png",
+    "rect_xyxy": [
+      303,
+      174,
+      379,
+      260
+    ],
+    "paper_removed": true
+  },
+  "deer_1": {
+    "source": "assets.png",
+    "rect_xyxy": [
+      375,
+      174,
+      451,
+      260
+    ],
+    "paper_removed": true
+  },
+  "deer_2": {
+    "source": "assets.png",
+    "rect_xyxy": [
+      453,
+      174,
+      529,
+      260
+    ],
+    "paper_removed": true
+  },
+  "deer_3": {
+    "source": "assets.png",
+    "rect_xyxy": [
+      526,
+      174,
+      602,
+      260
+    ],
+    "paper_removed": true
+  },
+  "rabbit_0": {
+    "source": "assets.png",
+    "rect_xyxy": [
+      310,
+      289,
+      374,
+      346
+    ],
+    "paper_removed": true
+  },
+  "rabbit_1": {
+    "source": "assets.png",
+    "rect_xyxy": [
+      382,
+      289,
+      446,
+      346
+    ],
+    "paper_removed": true
+  },
+  "rabbit_2": {
+    "source": "assets.png",
+    "rect_xyxy": [
+      459,
+      289,
+      523,
+      346
+    ],
+    "paper_removed": true
+  },
+  "rabbit_3": {
+    "source": "assets.png",
+    "rect_xyxy": [
+      533,
+      289,
+      597,
+      346
+    ],
+    "paper_removed": true
+  },
+  "squirrel_0": {
+    "source": "assets.png",
+    "rect_xyxy": [
+      309,
+      368,
+      373,
+      446
+    ],
+    "paper_removed": true
+  },
+  "squirrel_1": {
+    "source": "assets.png",
+    "rect_xyxy": [
+      386,
+      368,
+      450,
+      446
+    ],
+    "paper_removed": true
+  },
+  "squirrel_2": {
+    "source": "assets.png",
+    "rect_xyxy": [
+      464,
+      368,
+      528,
+      446
+    ],
+    "paper_removed": true
+  },
+  "squirrel_3": {
+    "source": "assets.png",
+    "rect_xyxy": [
+      534,
+      368,
+      598,
+      446
+    ],
+    "paper_removed": true
+  },
+  "bird_0": {
+    "source": "assets.png",
+    "rect_xyxy": [
+      308,
+      482,
+      372,
+      536
+    ],
+    "paper_removed": true
+  },
+  "bird_1": {
+    "source": "assets.png",
+    "rect_xyxy": [
+      382,
+      482,
+      446,
+      536
+    ],
+    "paper_removed": true
+  },
+  "bird_2": {
+    "source": "assets.png",
+    "rect_xyxy": [
+      458,
+      482,
+      522,
+      536
+    ],
+    "paper_removed": true
+  },
+  "bird_3": {
+    "source": "assets.png",
+    "rect_xyxy": [
+      532,
+      482,
+      596,
+      536
+    ],
+    "paper_removed": true
+  },
+  "owl_0": {
+    "source": "assets.png",
+    "rect_xyxy": [
+      299,
+      556,
+      375,
+      636
+    ],
+    "paper_removed": true
+  },
+  "owl_1": {
+    "source": "assets.png",
+    "rect_xyxy": [
+      381,
+      556,
+      457,
+      636
+    ],
+    "paper_removed": true
+  },
+  "owl_2": {
+    "source": "assets.png",
+    "rect_xyxy": [
+      505,
+      556,
+      581,
+      636
+    ],
+    "paper_removed": true
+  },
+  "pine_0": {
+    "source": "assets.png",
+    "rect_xyxy": [
+      633,
+      38,
+      787,
+      286
+    ],
+    "paper_removed": true
+  },
+  "pine_1": {
+    "source": "assets.png",
+    "rect_xyxy": [
+      776,
+      8,
+      916,
+      223
+    ],
+    "paper_removed": true
+  },
+  "pine_2": {
+    "source": "assets.png",
+    "rect_xyxy": [
+      892,
+      170,
+      990,
+      326
+    ],
+    "paper_removed": true
+  },
+  "pine_3": {
+    "source": "assets.png",
+    "rect_xyxy": [
+      625,
+      278,
+      747,
+      449
+    ],
+    "paper_removed": true
+  },
+  "pine_4": {
+    "source": "assets.png",
+    "rect_xyxy": [
+      620,
+      475,
+      753,
+      672
+    ],
+    "paper_removed": true
+  },
+  "bare_0": {
+    "source": "assets.png",
+    "rect_xyxy": [
+      875,
+      360,
+      985,
+      489
+    ],
+    "paper_removed": true
+  },
+  "bare_1": {
+    "source": "assets.png",
+    "rect_xyxy": [
+      850,
+      502,
+      947,
+      611
+    ],
+    "paper_removed": true
+  },
+  "cabin": {
+    "source": "assets.png",
+    "rect_xyxy": [
+      1035,
+      116,
+      1300,
+      352
+    ],
+    "paper_removed": true
+  },
+  "shed": {
+    "source": "assets.png",
+    "rect_xyxy": [
+      1295,
+      146,
+      1387,
+      231
+    ],
+    "paper_removed": true
+  },
+  "woodstore": {
+    "source": "assets.png",
+    "rect_xyxy": [
+      1317,
+      269,
+      1412,
+      348
+    ],
+    "paper_removed": true
+  },
+  "bench": {
+    "source": "assets.png",
+    "rect_xyxy": [
+      1076,
+      376,
+      1161,
+      435
+    ],
+    "paper_removed": true
+  },
+  "dock": {
+    "source": "assets.png",
+    "rect_xyxy": [
+      1294,
+      355,
+      1413,
+      440
+    ],
+    "paper_removed": true
+  },
+  "boat": {
+    "source": "assets.png",
+    "rect_xyxy": [
+      1362,
+      410,
+      1454,
+      477
+    ],
+    "paper_removed": true
+  },
+  "rock_0": {
+    "source": "assets.png",
+    "rect_xyxy": [
+      1004,
+      517,
+      1092,
+      594
+    ],
+    "paper_removed": true
+  },
+  "rock_1": {
+    "source": "assets.png",
+    "rect_xyxy": [
+      1130,
+      512,
+      1235,
+      623
+    ],
+    "paper_removed": true
+  },
+  "rock_2": {
+    "source": "assets.png",
+    "rect_xyxy": [
+      1040,
+      576,
+      1126,
+      651
+    ],
+    "paper_removed": true
+  },
+  "berries": {
+    "source": "assets.png",
+    "rect_xyxy": [
+      1247,
+      617,
+      1318,
+      694
+    ],
+    "paper_removed": true
+  },
+  "logs": {
+    "source": "assets.png",
+    "rect_xyxy": [
+      1380,
+      576,
+      1466,
+      650
+    ],
+    "paper_removed": true
+  },
+  "sign": {
+    "source": "assets.png",
+    "rect_xyxy": [
+      1260,
+      531,
+      1321,
+      601
+    ],
+    "paper_removed": true
+  },
+  "stump": {
+    "source": "assets.png",
+    "rect_xyxy": [
+      1332,
+      630,
+      1371,
+      666
+    ],
+    "paper_removed": true
+  },
+  "lantern": {
+    "source": "assets.png",
+    "rect_xyxy": [
+      1441,
+      618,
+      1502,
+      714
+    ],
+    "paper_removed": true
+  },
+  "fence": {
+    "source": "assets.png",
+    "rect_xyxy": [
+      1330,
+      513,
+      1427,
+      591
+    ],
+    "paper_removed": true
+  },
+  "bush": {
+    "source": "assets.png",
+    "rect_xyxy": [
+      1373,
+      672,
+      1431,
+      736
+    ],
+    "paper_removed": true
+  },
+  "lake": {
+    "source": "assets.png",
+    "rect_xyxy": [
+      8,
+      771,
+      316,
+      1006
+    ],
+    "paper_removed": true
+  },
+  "snow": {
+    "source": "assets.png",
+    "rect_xyxy": [
+      597,
+      786,
+      682,
+      865
+    ],
+    "paper_removed": false
+  },
+  "landscape": {
+    "source": "menus.png",
+    "rect_xyxy": [
+      0,
+      483,
+      616,
+      702
+    ],
+    "paper_removed": false
+  },
+  "paper": {
+    "source": "menus.png",
+    "rect_xyxy": [
+      1095,
+      836,
+      1255,
+      915
+    ],
+    "paper_removed": false
+  },
+  "icon_pack": {
+    "source": "menus.png",
+    "rect_xyxy": [
+      541,
+      815,
+      602,
+      885
+    ],
+    "paper_removed": true
+  },
+  "icon_map": {
+    "source": "menus.png",
+    "rect_xyxy": [
+      629,
+      814,
+      696,
+      883
+    ],
+    "paper_removed": true
+  },
+  "icon_journal": {
+    "source": "menus.png",
+    "rect_xyxy": [
+      715,
+      815,
+      788,
+      886
+    ],
+    "paper_removed": true
+  },
+  "icon_fish": {
+    "source": "menus.png",
+    "rect_xyxy": [
+      810,
+      819,
+      888,
+      879
+    ],
+    "paper_removed": true
+  },
+  "icon_lantern": {
+    "source": "menus.png",
+    "rect_xyxy": [
+      674,
+      898,
+      723,
+      977
+    ],
+    "paper_removed": true
+  },
+  "icon_crane": {
+    "source": "menus.png",
+    "rect_xyxy": [
+      818,
+      906,
+      892,
+      979
+    ],
+    "paper_removed": true
+  }
+}
