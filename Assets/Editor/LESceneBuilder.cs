@@ -53,7 +53,7 @@ public static class LESceneBuilder {
         }
         var game=new GameObject("Game Controller");
         game.AddComponent<LEGame>();
-        LEGame.Current=LEGame.Screen.Main;
+        LEGame.Current=LEGame.GameScreen.Main;
         LEGame.Paused=true;
         
         EditorSceneManager.SaveScene(scene,"Assets/Scenes/LittleElsewhere.unity");
