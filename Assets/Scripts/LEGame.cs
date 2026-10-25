@@ -36,11 +36,11 @@ public class LEGame : MonoBehaviour {
         if (ready) return;
         ready = true;
 
-        if (btnNormalTex == null) btnNormalTex = Resources.Load<Texture2D>("Menu_Components/Button_Normal") ?? Resources.Load<Texture2D>("UI/ButtonNormal");
-        if (btnHoverTex == null) btnHoverTex = Resources.Load<Texture2D>("Menu_Components/Button_Hover") ?? Resources.Load<Texture2D>("UI/ButtonHover");
-        if (btnPressedTex == null) btnPressedTex = Resources.Load<Texture2D>("Menu_Components/Button_Pressed") ?? Resources.Load<Texture2D>("UI/ButtonPressed");
-        if (panelATex == null) panelATex = Resources.Load<Texture2D>("Menu_Components/Panel_Paper_Standard") ?? Resources.Load<Texture2D>("UI/PanelA");
-        if (panelBTex == null) panelBTex = Resources.Load<Texture2D>("Menu_Components/Panel_Paper_Wide") ?? Resources.Load<Texture2D>("UI/PanelB");
+        if (btnNormalTex == null) btnNormalTex = Resources.Load<Texture2D>("UI/ButtonNormal");
+        if (btnHoverTex == null) btnHoverTex = Resources.Load<Texture2D>("UI/ButtonHover");
+        if (btnPressedTex == null) btnPressedTex = Resources.Load<Texture2D>("UI/ButtonPressed");
+        if (panelATex == null) panelATex = Resources.Load<Texture2D>("UI/PanelA");
+        if (panelBTex == null) panelBTex = Resources.Load<Texture2D>("UI/PanelB");
 
         title = new GUIStyle(GUI.skin.label) { fontSize = 38, alignment = TextAnchor.MiddleCenter, fontStyle = FontStyle.Bold };
         title.normal.textColor = new Color(.12f, .24f, .33f);

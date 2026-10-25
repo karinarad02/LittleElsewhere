@@ -105,10 +105,10 @@ namespace LittleElsewhere.UI
             if (guiStylesReady) return;
             guiStylesReady = true;
 
-            if (panelATex == null) panelATex = Resources.Load<Texture2D>("Menu_Components/Panel_Paper_Standard") ?? Resources.Load<Texture2D>("UI/PanelA");
-            if (panelBTex == null) panelBTex = Resources.Load<Texture2D>("Menu_Components/Panel_Paper_Wide") ?? Resources.Load<Texture2D>("UI/PanelB");
-            if (btnNormalTex == null) btnNormalTex = Resources.Load<Texture2D>("Menu_Components/Button_Normal") ?? Resources.Load<Texture2D>("UI/ButtonNormal");
-            if (btnPressedTex == null) btnPressedTex = Resources.Load<Texture2D>("Menu_Components/Button_Pressed") ?? Resources.Load<Texture2D>("UI/ButtonPressed");
+            if (panelATex == null) panelATex = Resources.Load<Texture2D>("UI/PanelA");
+            if (panelBTex == null) panelBTex = Resources.Load<Texture2D>("UI/PanelB");
+            if (btnNormalTex == null) btnNormalTex = Resources.Load<Texture2D>("UI/ButtonNormal");
+            if (btnPressedTex == null) btnPressedTex = Resources.Load<Texture2D>("UI/ButtonPressed");
 
             // Panel frame using PanelA texture
             boxStyle = new GUIStyle(GUI.skin.box)
