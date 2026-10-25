@@ -4,7 +4,7 @@ A cozy winter exploration game project with newly generated larger artwork, a hi
 
 ## Open the project
 
-1. Install **Unity Hub** and **Unity 6.3 LTS, 6000.3.27f1**.
+1. Install **Unity Hub** and **Unity 6000.6.2f1**.
 2. Extract the ZIP. In Unity Hub choose **Add project from disk** and select the `LittleElsewhere` folder containing `Assets`, `Packages`, and `ProjectSettings`.
 3. Let Unity finish importing and compiling. No paid assets, additional input package, or Python setup is required to play.
 4. Open **Assets/Scenes/MainMenu.unity**, or choose **Little Elsewhere → Open Game Scene**.
@@ -105,4 +105,4 @@ Install your target's Build Support module through Unity Hub, then use **Little 
 
 No Asset Store purchases or third-party runtime plugins are required. Rendering uses Unity's built-in pipeline, legacy keyboard input, and IMGUI. Newly written game code/story/tooling, original synthesized audio, and generated artwork are included for you to use and modify for this game. Supplied reference artwork retains its own applicable rights. The bundled DejaVu Serif font's license is in `Documentation/DejaVu-Font-License.txt`.
 
-Editor release reference: https://unity.com/releases/editor/whats-new/6000.3.27f1
+Editor release reference: https://unity.com/releases/editor/whats-new/6000.6.2f1
