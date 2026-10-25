@@ -49,7 +49,7 @@
 
 ```
 Assets/
-└── _Game/
+└── _LittleElsewhere/
     ├── Art/
     │   ├── Characters/        # Orange-coated player sprites & footprint textures
     │   ├── Trees/             # Hand-painted top-down pine tree sprites
@@ -81,7 +81,7 @@ Assets/
 
 ### Phase 1: Visual Prototype & Movement System (Current Focus)
 - [x] Unity Project Initialization & Git Remote Setup
-- [x] Folder Structure Migration to `Assets/_Game/`
+- [x] Folder Structure Migration to `Assets/_LittleElsewhere/`
 - [x] **Snow Ground & Shader:** Soft textured snow surface with subtle painterly finish.
 - [x] **Illustrated Tree System:** Billboarded or top-down pine trees casting soft blue directional shadows.
 - [x] **Player Controller:** Smooth 8-direction top-down movement for the orange-coated character.
